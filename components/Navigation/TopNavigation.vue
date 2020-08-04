@@ -20,15 +20,22 @@
             d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
           ></path>
         </svg>
-        <span class="ml-3 text-xl">KineticX</span>
+        <span class="ml-3 text-2xl">KineticX</span>
       </a>
       <nav
         class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
       >
-        <a class="mr-5 hover:text-white">Home</a>
-        <a class="mr-5 hover:text-white">Product</a>
-        <a class="mr-5 hover:text-white">News</a>
-        <a class="mr-5 hover:text-white">Contact</a>
+        <nuxt-link to="/" class="mr-10 hover:text-white">Home</nuxt-link>
+        <nuxt-link to="/about" class="mr-10 hover:text-white"
+          >About Us</nuxt-link
+        >
+        <nuxt-link to="/products" class="mr-10 hover:text-white"
+          >Product</nuxt-link
+        >
+        <nuxt-link to="/news" class="mr-10 hover:text-white">News</nuxt-link>
+        <nuxt-link to="/contact" class="mr-10 hover:text-white"
+          >Contact</nuxt-link
+        >
       </nav>
       <button
         class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
