@@ -16,7 +16,7 @@
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+            class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
             viewBox="0 0 24 24"
           >
             <path

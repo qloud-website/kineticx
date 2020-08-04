@@ -41,8 +41,8 @@ module.exports = {
           'primary-hvr': '#30db5b',
           'secondary-hvr': '#248a3d',
         },
-        indigo: {
-          ...colors.indigo,
+        blue: {
+          ...colors.blue,
           primary: '#5e5ce6',
           secondary: '#5856d6',
           'primary-hvr': '#7d7aff',

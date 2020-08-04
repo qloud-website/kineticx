@@ -28,7 +28,7 @@
             class="flex justify-center"
           >
             <button
-              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
             >
               Button
             </button>
@@ -127,7 +127,7 @@
           <div class="flex justify-center">
             <button
               v-scroll-reveal.reset="{ delay: 250 }"
-              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
             >
               Button
             </button>
@@ -168,7 +168,7 @@
           <div class="flex justify-center">
             <button
               v-scroll-reveal.reset="{ delay: 200 }"
-              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
             >
               Button
             </button>
@@ -196,7 +196,7 @@
         <div class="flex flex-col text-center w-full mb-20">
           <h2
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1"
+            class="text-xs text-blue-500 tracking-widest font-medium title-font mb-1"
           >
             ROOF PARTY POLAROID
           </h2>
@@ -212,7 +212,7 @@
             <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
               <div class="flex items-center mb-3">
                 <div
-                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"
+                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0"
                 >
                   <svg
                     fill="none"
@@ -235,7 +235,7 @@
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center"
+                <a class="mt-3 text-blue-500 inline-flex items-center"
                   >Learn More
                   <svg
                     fill="none"
@@ -256,7 +256,7 @@
             <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
               <div class="flex items-center mb-3">
                 <div
-                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"
+                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0"
                 >
                   <svg
                     fill="none"
@@ -280,7 +280,7 @@
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center"
+                <a class="mt-3 text-blue-500 inline-flex items-center"
                   >Learn More
                   <svg
                     fill="none"
@@ -301,7 +301,7 @@
             <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
               <div class="flex items-center mb-3">
                 <div
-                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"
+                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0"
                 >
                   <svg
                     fill="none"
@@ -328,7 +328,7 @@
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center"
+                <a class="mt-3 text-blue-500 inline-flex items-center"
                   >Learn More
                   <svg
                     fill="none"
@@ -373,27 +373,27 @@
           <div class="flex flex-wrap -m-2">
             <div class="p-2 w-1/2">
               <input
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-blue-500 text-base px-4 py-2"
                 placeholder="Name"
                 type="text"
               />
             </div>
             <div class="p-2 w-1/2">
               <input
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-blue-500 text-base px-4 py-2"
                 placeholder="Email"
                 type="email"
               />
             </div>
             <div class="p-2 w-full">
               <textarea
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block"
+                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none h-48 focus:border-blue-500 text-base px-4 py-2 resize-none block"
                 placeholder="Message"
               ></textarea>
             </div>
             <div class="p-2 w-full">
               <button
-                class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
               >
                 Button
               </button>
@@ -401,7 +401,7 @@
             <div
               class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center"
             >
-              <a class="text-indigo-500">example@email.com</a>
+              <a class="text-blue-500">example@email.com</a>
               <p class="leading-normal my-5">
                 49 Smith St. <br />Saint Cloud, MN 56301
               </p>
