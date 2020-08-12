@@ -16,6 +16,7 @@ module.exports = {
       spacing: {
         '96': '24rem',
         '128': '32rem',
+        '144': '36rem',
       },
       fontFamily: {
         heading: ['Metropolis', 'sans-serif'],
@@ -27,6 +28,7 @@ module.exports = {
       },
       colors: {
         primary: '#0064FF',
+        dark: '#0F1116',
         blue: {
           ...colors.blue,
           primary: '#0a84ff',
@@ -41,7 +43,7 @@ module.exports = {
           'primary-hvr': '#30db5b',
           'secondary-hvr': '#248a3d',
         },
-        blue: {
+        indigo: {
           ...colors.blue,
           primary: '#5e5ce6',
           secondary: '#5856d6',

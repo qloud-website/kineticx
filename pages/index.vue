@@ -1,98 +1,37 @@
 <template>
   <section>
-    <section class="text-gray-500 bg-gray-900 body-font">
-      <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
-      >
+    <!-- Hero -->
+    <section class="text-gray-500 bg-dark body-font">
+      <div class="w-full">
         <div
-          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          class="h-144 rounded-md overflow-hidden bg-cover bg-center"
+          style="background-image: url('/products/nordbord/IMG_4811.jpg');"
         >
-          <h1
-            v-scroll-reveal.reset="{ delay: 100 }"
-            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
-          >
-            Before they sold out <br class="hidden lg:inline-block" />readymade
-            gluten
-          </h1>
-          <p
-            v-scroll-reveal.reset="{ delay: 150 }"
-            class="mb-8 leading-relaxed"
-          >
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
-          </p>
           <div
-            v-scroll-reveal.reset="{ delay: 200 }"
-            class="flex justify-center"
+            class="container mx-auto bg-dark bg-opacity-50 flex items-center h-full"
           >
-            <button
-              class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
-            >
-              Button
-            </button>
-            <button
-              v-scroll-reveal.reset="{ delay: 250 }"
-              class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-            >
-              Button
-            </button>
-          </div>
-        </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            class="object-cover object-center rounded"
-            alt="hero"
-            src="https://dummyimage.com/720x600"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section class="text-gray-500 bg-gray-900 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap -m-4 text-center">
-          <div class="p-4 sm:w-1/4 w-1/2">
-            <h2
-              v-scroll-reveal.reset="{ delay: 100 }"
-              class="title-font font-medium sm:text-4xl text-3xl text-white"
-            >
-              2.7K
-            </h2>
-            <p class="leading-relaxed">Users</p>
-          </div>
-          <div
-            v-scroll-reveal.reset="{ delay: 150 }"
-            class="p-4 sm:w-1/4 w-1/2"
-          >
-            <h2 class="title-font font-medium sm:text-4xl text-3xl text-white">
-              1.8K
-            </h2>
-            <p class="leading-relaxed">Subscribes</p>
-          </div>
-          <div
-            v-scroll-reveal.reset="{ delay: 200 }"
-            class="p-4 sm:w-1/4 w-1/2"
-          >
-            <h2 class="title-font font-medium sm:text-4xl text-3xl text-white">
-              35
-            </h2>
-            <p class="leading-relaxed">Downloads</p>
-          </div>
-          <div
-            v-scroll-reveal.reset="{ delay: 250 }"
-            class="p-4 sm:w-1/4 w-1/2"
-          >
-            <h2 class="title-font font-medium sm:text-4xl text-3xl text-white">
-              4
-            </h2>
-            <p class="leading-relaxed">Products</p>
+            <div class="px-10 max-w-xl">
+              <h2 class="text-4xl text-white font-semibold">
+                Athlete Testing Technologies
+              </h2>
+              <p class="mt-2 leading-relaxed text-gray-400">
+                Helping high performance sport and tactical professionals to get
+                the right information, for the right decision at the right time.
+                .
+              </p>
+              <button
+                v-scroll-reveal.reset="{ delay: 250 }"
+                class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Content 2 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
@@ -102,7 +41,7 @@
             v-scroll-reveal.reset="{ delay: 100 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="/img/forcedecks-2.jpg"
           />
         </div>
         <div
@@ -110,38 +49,30 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
+            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
-            Before they sold out <br class="hidden lg:inline-block" />readymade
-            gluten
+            Evaluate accuratelly
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed"
+            class="mb-8 leading-relaxed font-xl"
           >
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+            3D motion capture biomechanical analiysis, <br />
+            Helping you see what the eye can’t
           </p>
           <div class="flex justify-center">
             <button
-              v-scroll-reveal.reset="{ delay: 250 }"
-              class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
-            >
-              Button
-            </button>
-            <button
               v-scroll-reveal.reset="{ delay: 100 }"
-              class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Button
+              Learn More
             </button>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Content 3 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
@@ -151,10 +82,9 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
+            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
-            Before they sold out <br class="hidden lg:inline-block" />readymade
-            gluten
+            Rehabilitate properly
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 150 }"
@@ -167,16 +97,10 @@
           </p>
           <div class="flex justify-center">
             <button
-              v-scroll-reveal.reset="{ delay: 200 }"
-              class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
-            >
-              Button
-            </button>
-            <button
               v-scroll-reveal.reset="{ delay: 250 }"
-              class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Button
+              Learn More
             </button>
           </div>
         </div>
@@ -185,295 +109,170 @@
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="/img/rehab-2.jpg"
           />
         </div>
       </div>
     </section>
 
+    <!-- Content 4 -->
     <section class="text-gray-500 bg-gray-900 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex flex-col text-center w-full mb-20">
-          <h2
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+      >
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+          <img
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="text-xs text-blue-500 tracking-widest font-medium title-font mb-1"
-          >
-            ROOF PARTY POLAROID
-          </h2>
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="/img/improve-1.jpg"
+          />
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        >
           <h1
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="sm:text-3xl text-2xl font-medium title-font text-white"
+            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
-            Master Cleanse Reliac Heirloom
+            Improve safely
           </h1>
+          <p
+            v-scroll-reveal.reset="{ delay: 200 }"
+            class="mb-8 leading-relaxed font-xl"
+          >
+            combining latest research and technology in body in sport science to
+            improve your performance safely.
+          </p>
+          <div class="flex justify-center">
+            <button
+              v-scroll-reveal.reset="{ delay: 100 }"
+              class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
-        <div class="flex flex-wrap -m-4">
-          <div v-scroll-reveal.reset="{ delay: 100 }" class="p-4 md:w-1/3">
-            <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
-              <div class="flex items-center mb-3">
-                <div
-                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0"
-                >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                  </svg>
-                </div>
-                <h2 class="text-white text-lg title-font font-medium">
-                  Shooting Stars
-                </h2>
-              </div>
-              <div class="flex-grow">
-                <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
-                </p>
-                <a class="mt-3 text-blue-500 inline-flex items-center"
-                  >Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
+      </div>
+    </section>
+
+    <!-- Content 5 & 6 -->
+    <section class="text-gray-500 bg-gray-900 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+          <div class="sm:w-1/2 mb-10 px-4">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img
+                alt="content"
+                class="object-cover object-center h-full w-full"
+                src="/img/humantrack-2.png"
+              />
             </div>
+            <h2 class="title-font text-5xl font-medium text-white mt-6 mb-3">
+              State of the art technology
+            </h2>
+            <p class="leading-relaxed text-base">
+              Williamsburg occupy sustainable snackwave gochujang. Pinterest
+              cornhole brunch, slow-carb neutra irony.
+            </p>
           </div>
-          <div v-scroll-reveal.reset="{ delay: 150 }" class="p-4 md:w-1/3">
-            <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
-              <div class="flex items-center mb-3">
-                <div
-                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0"
-                >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-                <h2 class="text-white text-lg title-font font-medium">
-                  The Catalyzer
-                </h2>
-              </div>
-              <div class="flex-grow">
-                <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
-                </p>
-                <a class="mt-3 text-blue-500 inline-flex items-center"
-                  >Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
+          <div class="sm:w-1/2 mb-10 px-4">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img
+                alt="content"
+                class="object-cover object-center h-full w-full"
+                src="/img/IMG_4794.JPG"
+              />
             </div>
-          </div>
-          <div v-scroll-reveal.reset="{ delay: 200 }" class="p-4 md:w-1/3">
-            <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
-              <div class="flex items-center mb-3">
-                <div
-                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0"
-                >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle cx="6" cy="6" r="3"></circle>
-                    <circle cx="6" cy="18" r="3"></circle>
-                    <path
-                      d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
-                    ></path>
-                  </svg>
-                </div>
-                <h2 class="text-white text-lg title-font font-medium">
-                  Neptune
-                </h2>
-              </div>
-              <div class="flex-grow">
-                <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
-                </p>
-                <a class="mt-3 text-blue-500 inline-flex items-center"
-                  >Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
+            <h2 class="title-font text-5xl font-medium text-white mt-6 mb-3">
+              Train effectively
+            </h2>
+            <p class="leading-relaxed text-base">
+              Williamsburg occupy sustainable snackwave gochujang. Pinterest
+              cornhole brunch, slow-carb neutra irony.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
     <section class="text-gray-500 bg-gray-900 body-font relative">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-12">
-          <h1
-            v-scroll-reveal.reset="{ delay: 100 }"
-            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white"
-          >
-            Contact Us
-          </h1>
-          <p
-            v-scroll-reveal.reset="{ delay: 150 }"
-            class="lg:w-2/3 mx-auto leading-relaxed text-base"
-          >
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
-          </p>
-        </div>
+      <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
         <div
-          v-scroll-reveal.reset="{ delay: 200 }"
-          class="lg:w-1/2 md:w-2/3 mx-auto"
+          class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
         >
-          <div class="flex flex-wrap -m-2">
-            <div class="p-2 w-1/2">
-              <input
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-blue-500 text-base px-4 py-2"
-                placeholder="Name"
-                type="text"
-              />
-            </div>
-            <div class="p-2 w-1/2">
-              <input
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-blue-500 text-base px-4 py-2"
-                placeholder="Email"
-                type="email"
-              />
-            </div>
-            <div class="p-2 w-full">
-              <textarea
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none h-48 focus:border-blue-500 text-base px-4 py-2 resize-none block"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <div class="p-2 w-full">
-              <button
-                class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+          <iframe
+            width="100%"
+            height="100%"
+            title="map"
+            class="absolute inset-0"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="no"
+            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+            style="filter: grayscale(1) contrast(1.2) opacity(0.16);"
+          ></iframe>
+          <div class="bg-gray-900 relative flex flex-wrap py-6">
+            <div class="lg:w-1/2 px-6">
+              <h2
+                class="title-font font-medium text-white tracking-widest text-sm"
               >
-                Button
-              </button>
-            </div>
-            <div
-              class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center"
-            >
-              <a class="text-blue-500">example@email.com</a>
-              <p class="leading-normal my-5">
-                49 Smith St. <br />Saint Cloud, MN 56301
+                ADDRESS
+              </h2>
+              <p class="leading-relaxed">
+                Photo booth tattooed prism, portland taiyaki hoodie neutra
+                typewriter
               </p>
-              <span class="inline-flex">
-                <a class="text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                    ></path>
-                  </svg>
-                </a>
-                <a class="ml-4 text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                    ></path>
-                  </svg>
-                </a>
-                <a class="ml-4 text-gray-500">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <rect
-                      width="20"
-                      height="20"
-                      x="2"
-                      y="2"
-                      rx="5"
-                      ry="5"
-                    ></rect>
-                    <path
-                      d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
-                    ></path>
-                  </svg>
-                </a>
-                <a class="ml-4 text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                    ></path>
-                  </svg>
-                </a>
-              </span>
+            </div>
+            <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2
+                class="title-font font-medium text-white tracking-widest text-sm"
+              >
+                EMAIL
+              </h2>
+              <a class="text-blue-500 leading-relaxed">example@email.com</a>
+              <h2
+                class="title-font font-medium text-white tracking-widest text-sm mt-4"
+              >
+                PHONE
+              </h2>
+              <p class="leading-relaxed">123-456-7890</p>
             </div>
           </div>
+        </div>
+        <div
+          class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        >
+          <h2 class="text-white text-lg mb-1 font-medium title-font">
+            Feedback
+          </h2>
+          <p class="leading-relaxed mb-5 text-gray-600">
+            Post-ironic portland shabby chic echo park, banjo fashion axe
+          </p>
+          <input
+            class="bg-gray-800 rounded border border-gray-700 focus:outline-none focus:border-blue-500 text-base text-white px-4 py-2 mb-4"
+            placeholder="Name"
+            type="text"
+          />
+          <input
+            class="bg-gray-800 rounded border border-gray-700 focus:outline-none focus:border-blue-500 text-base text-white px-4 py-2 mb-4"
+            placeholder="Email"
+            type="email"
+          />
+          <textarea
+            class="bg-gray-800 rounded border border-gray-700 focus:outline-none h-32 focus:border-blue-500 text-base text-white px-4 py-2 mb-4 resize-none"
+            placeholder="Message"
+          ></textarea>
+          <button
+            class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
+          >
+            Button
+          </button>
+          <p class="text-xs text-gray-500 mt-3">
+            Chicharrones blog helvetica normcore iceland tousled brook viral
+            artisan.
+          </p>
         </div>
       </div>
     </section>
