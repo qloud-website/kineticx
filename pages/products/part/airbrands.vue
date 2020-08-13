@@ -6,7 +6,7 @@
           v-scroll-reveal.reset="{ delay: 100 }"
           class="sm:text-5xl text-2xl font-medium title-font mb-4 text-white"
         >
-          Airbrands
+          Airbands
         </h1>
         <p
           v-scroll-reveal.reset="{ delay: 200 }"

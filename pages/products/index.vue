@@ -55,7 +55,7 @@
               @click="activeProduct = 'Airbrands'"
             >
               <h2 class="text-lg text-white font-medium title-font">
-                Airbrands
+                Airbands
               </h2>
             </div>
           </div>
