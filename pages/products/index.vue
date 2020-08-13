@@ -42,7 +42,7 @@
               @click="activeProduct = 'Forceframe'"
             >
               <h2 class="text-lg text-white font-medium title-font">
-                Force Frame
+                ForceFrame
               </h2>
             </div>
           </div>
@@ -68,7 +68,7 @@
               @click="activeProduct = 'Decks'"
             >
               <h2 class="text-lg text-white font-medium title-font">
-                Decks
+                ForceDecks
               </h2>
             </div>
           </div>
