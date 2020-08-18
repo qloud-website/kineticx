@@ -28,8 +28,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href:
-          'https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-favicon.png',
+        href: '/kineticx-favicon.png',
       },
     ],
   },
