@@ -26,7 +26,7 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="/products/decks/IMG_4820.jpg"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/decks/IMG_4820.jpg"
             />
           </div>
         </div>
@@ -35,21 +35,21 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="/products/decks/002.png"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/decks/002.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="/products/decks/forcedecks-2.jpg"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/decks/forcedecks-2.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="/products/decks/004.jpg"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/decks/004.jpg"
             />
           </div>
         </div>

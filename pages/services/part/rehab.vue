@@ -28,11 +28,12 @@
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded h-96 w-full"
             alt="hero"
-            src="/services/rehab/image-3.jpg"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-3.jpg"
           />
         </div>
       </div>
     </section>
+
     <section class="text-gray-500 bg-gray-900 body-font">
       <div class="container px-5 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
@@ -54,7 +55,7 @@
               <img
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="/services/rehab/image-3.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-3.jpg"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
@@ -82,7 +83,7 @@
               <img
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="/services/rehab/image-1.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-2.jpg"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
@@ -110,7 +111,7 @@
               <img
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="/services/rehab/image-2.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-1.jpg"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"

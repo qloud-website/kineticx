@@ -26,7 +26,7 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="/products/humantrack/001.png"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/humantrack/001.png"
             />
           </div>
         </div>
@@ -35,21 +35,21 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="/products/humantrack/humantrack-2.png"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/humantrack/humantrack-2.png"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="/products/humantrack/002.png"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/humantrack/002.png"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="/products/humantrack/002.png"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/humantrack/002.png"
             />
           </div>
         </div>

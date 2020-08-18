@@ -28,7 +28,7 @@
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="/services/evaluate/image-1.jpg"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-1.jpg"
           />
         </div>
       </div>
@@ -52,7 +52,7 @@
                 v-scroll-reveal.reset="{ delay: 500 }"
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="/services/evaluate/image-2.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-2.jpg"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"

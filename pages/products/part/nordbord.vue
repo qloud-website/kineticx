@@ -26,7 +26,7 @@
             <img
               alt="gallery"
               class="absolute inset-0 w-full h-full object-cover object-center"
-              src="/products/nordbord/010.jpg"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/nordbord/010.jpg"
             />
             <div
               class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 transition duration-500 ease-in-out hover:opacity-100"
@@ -54,7 +54,7 @@
             <img
               alt="gallery"
               class="absolute inset-0 w-full h-full object-cover object-center"
-              src="/products/nordbord/IMG_4811.jpg"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/nordbord/IMG_4811.jpg"
             />
             <div
               class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 transition duration-500 ease-in-out hover:opacity-100"
@@ -83,7 +83,7 @@
             <img
               alt="gallery"
               class="absolute inset-0 w-full h-full object-cover object-center"
-              src="/products/nordbord/007.png"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/nordbord/007.png"
             />
             <div
               class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
@@ -111,7 +111,7 @@
             <img
               alt="gallery"
               class="absolute inset-0 w-full h-full object-cover object-center"
-              src="/products/nordbord/005.jpg"
+              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/nordbord/005.jpg"
             />
             <div
               class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"

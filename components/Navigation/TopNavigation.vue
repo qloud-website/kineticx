@@ -4,7 +4,11 @@
       class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center"
     >
       <a class="flex title-font font-medium items-center text-white md:mb-0">
-        <img class="h-12" src="/kineticx-logo.png" alt="" />
+        <img
+          class="h-12"
+          src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-logo.png"
+          alt=""
+        />
       </a>
       <nav
         class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
@@ -26,7 +30,10 @@
           >Products
         </nuxt-link>
         <nuxt-link
-          to="/services"
+          :to="{
+            path: '/services',
+            query: { c: 'evaluate' },
+          }"
           :class="
             $route.name.includes('services') ? 'bg-blue-primary text-white' : ''
           "
