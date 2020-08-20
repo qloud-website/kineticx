@@ -262,7 +262,7 @@
             v-scroll-reveal.reset="{ delay: 100 }"
             class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
-            Revocery properly
+            Recover Effectively
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 150 }"
