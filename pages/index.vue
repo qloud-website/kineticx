@@ -293,45 +293,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Content 6 & 7 -->
-    <section class="text-gray-500 bg-gray-900 body-font">
-      <div class="container px-5 mx-auto">
-        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-          <div class="sm:w-1/2 mb-10 px-4">
-            <div class="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/humantrack/humantrack-2.png"
-              />
-            </div>
-            <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
-            >
-              The Best in Field-based Measurement
-            </h2>
-          </div>
-          <div class="sm:w-1/2 mb-10 px-4">
-            <div class="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/force-frame/IMG_4794.JPG"
-              />
-            </div>
-            <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
-            >
-              Train Smarter
-            </h2>
-            <p class="leading-relaxed text-base">
-              If you can measure it, you can improve it.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
   </section>
 </template>
 
