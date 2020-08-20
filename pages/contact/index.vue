@@ -13,8 +13,8 @@
           marginheight="0"
           marginwidth="0"
           scrolling="no"
-          src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-          style="filter: grayscale(1) contrast(1.2) opacity(0.16);"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.602269666499!2d112.73251531469171!3d-7.28601199474118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbeb14ef6d61%3A0x6a35ad4904bedb57!2sJl.%20Musi%20No.20%2C%20RT.002%2FRW.19%2C%20DR.%20Soetomo%2C%20Kec.%20Tegalsari%2C%20Kota%20SBY%2C%20Jawa%20Timur%2060264!5e0!3m2!1sid!2sid!4v1597931504311!5m2!1sid!2sid"
+          style="filter: grayscale(0) contrast(1.2) opacity(0.5);"
         ></iframe>
         <div class="bg-gray-900 relative flex flex-wrap py-6">
           <div class="lg:w-1/2 px-6">

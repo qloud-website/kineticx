@@ -12,9 +12,9 @@
           v-scroll-reveal.reset="{ delay: 200 }"
           class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base"
         >
-          Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-          gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-          heard of them man bun deep jianbing selfies heirloom.
+          Isometric strength testing and training across upper and lower body.
+          Measure and train strength in 35+ different positions and muscle
+          groups.
         </p>
       </div>
       <div

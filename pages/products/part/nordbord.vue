@@ -12,9 +12,9 @@
           v-scroll-reveal.reset="{ delay: 200 }"
           class="lg:w-2/3 mx-auto leading-relaxed text-base"
         >
-          Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-          gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-          heard of them man bun deep jianbing selfies heirloom.
+          Combining advanced, real - team data visualisation and cloud
+          analytics, the NordBord accurately measure,monitors,and trains an
+          individua's hamstring strength and imbalance.
         </p>
       </div>
       <div class="flex flex-wrap -m-4">

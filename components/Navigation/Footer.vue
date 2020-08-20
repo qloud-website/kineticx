@@ -1,6 +1,93 @@
 <template>
-  <footer class="text-gray-500 bg-gray-900 body-font">
-    <div class="bg-gray-800">
+  <footer class="text-gray-500 bg-gray-800 body-font">
+    <div
+      class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col"
+    >
+      <div
+        class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+        >
+          <img
+            class="h-16"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-logo.png"
+            alt=""
+          />
+        </a>
+        <p class="mt-2 text-sm text-gray-700">
+          Jalan Musi 20, Surabaya <br />
+          Jawa Timur Indonesia <br />
+          admin@kineticx.id <br />
+          1234
+        </p>
+      </div>
+      <div
+        class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first"
+      >
+        <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            PRODUCTS
+          </h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-white">Humantrack</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">Nordbord</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">ForceFrame</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">Airbands</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">Forcedecks</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            SERVICES
+          </h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-white">Evaluate</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">Rehabilitate</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">Recovery</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">Improve</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2
+            class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          >
+            Social Media
+          </h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-white">Instagram</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-white">Twitter</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-700">
       <div
         class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
       >

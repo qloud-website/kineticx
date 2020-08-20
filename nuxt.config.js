@@ -3,6 +3,9 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
+  generate: {
+    fallback: true,
+  },
   mode: 'universal',
   /*
    ** Nuxt target
@@ -63,6 +66,12 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
   ],
+
+  router: {
+    scrollBehavior(to, from, savedPosition) {
+      return { x: 0, y: 0 }
+    },
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

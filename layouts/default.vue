@@ -4,7 +4,8 @@
     <slide-y-up-transition :duration="400" :delay="100">
       <Nuxt />
     </slide-y-up-transition>
-
+    <!-- Wrapper -->
+    <div class="py-8"></div>
     <Footer />
   </section>
 </template>

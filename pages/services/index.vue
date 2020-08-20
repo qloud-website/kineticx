@@ -37,25 +37,7 @@
                 alt="content"
               />
               <h2 class="text-lg text-white font-medium title-font">
-                REHAB
-              </h2>
-            </div>
-          </div>
-          <div class="xl:w-1/4 md:w-1/2 p-6">
-            <div
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-105"
-              :class="
-                $route.query.c === 'improve' ? 'bg-blue-primary' : 'bg-gray-800'
-              "
-              @click="changeRoute('/services', 'improve')"
-            >
-              <img
-                class="h-16 rounded w-full object-cover object-center mb-4"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-1.jpg"
-                alt="content"
-              />
-              <h2 class="text-lg text-white font-medium title-font">
-                IMPROVE
+                REHABILITATE
               </h2>
             </div>
           </div>
@@ -76,6 +58,24 @@
               />
               <h2 class="text-lg text-white font-medium title-font">
                 RECOVERY
+              </h2>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-6">
+            <div
+              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-105"
+              :class="
+                $route.query.c === 'improve' ? 'bg-blue-primary' : 'bg-gray-800'
+              "
+              @click="changeRoute('/services', 'improve')"
+            >
+              <img
+                class="h-16 rounded w-full object-cover object-center mb-4"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-1.jpg"
+                alt="content"
+              />
+              <h2 class="text-lg text-white font-medium title-font">
+                IMPROVE
               </h2>
             </div>
           </div>
