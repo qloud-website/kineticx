@@ -131,9 +131,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 150 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
           >
-            Evaluate accuratelly
+            <span class="text-blue-primary-hvr">Evaluate</span>
+            <span class="font-thin">accuratelly</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"
@@ -167,9 +168,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 100 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
           >
-            Rehabilitate properly
+            <span class="text-blue-primary-hvr">Rehabilitate</span>
+            <span class="font-thin">properly</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 150 }"
@@ -223,9 +225,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 150 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
           >
-            Improve safely
+            <span class="text-blue-primary-hvr">Improve</span>
+            <span class="font-thin">safely</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"
@@ -259,9 +262,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 100 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
           >
-            Recover Effectively
+            <span class="text-blue-primary-hvr">Recover</span>
+            <span class="font-thin">effectively</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 150 }"
