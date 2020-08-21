@@ -7,7 +7,7 @@
             <swiper-slide>
               <div class="w-full py-2">
                 <div
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-105"
+                  class="p-4 rounded-lg cursor-pointer"
                   :class="
                     $route.query.c === 'evaluate'
                       ? 'bg-blue-primary'
@@ -29,7 +29,7 @@
             <swiper-slide>
               <div class="w-full">
                 <div
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-105"
+                  class="p-4 rounded-lg cursor-pointer"
                   :class="
                     $route.query.c === 'rehab'
                       ? 'bg-blue-primary'
@@ -51,7 +51,7 @@
             <swiper-slide>
               <div class="w-full">
                 <div
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-105"
+                  class="p-4 rounded-lg cursor-pointer"
                   :class="
                     $route.query.c === 'improve'
                       ? 'bg-blue-primary'
@@ -73,7 +73,7 @@
             <swiper-slide>
               <div class="w-full">
                 <div
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-105"
+                  class="p-4 rounded-lg cursor-pointer"
                   :class="
                     $route.query.c === 'recovery'
                       ? 'bg-blue-primary'

@@ -12,7 +12,7 @@
                       ? 'bg-blue-primary'
                       : 'bg-gray-800'
                   "
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
+                  class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Airbrands'"
                 >
                   <h2 class="text-lg text-white font-medium font-subheading">
@@ -29,7 +29,7 @@
                       ? 'bg-blue-primary'
                       : 'bg-gray-800'
                   "
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
+                  class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Humantrack'"
                 >
                   <h2 class="text-lg text-white font-medium font-subheading">
@@ -46,7 +46,7 @@
                       ? 'bg-blue-primary'
                       : 'bg-gray-800'
                   "
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
+                  class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Nordbord'"
                 >
                   <h2 class="text-lg text-white font-medium font-subheading">
@@ -63,7 +63,7 @@
                       ? 'bg-blue-primary'
                       : 'bg-gray-800'
                   "
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
+                  class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Forceframe'"
                 >
                   <h2 class="text-lg text-white font-medium font-subheading">
@@ -78,7 +78,7 @@
                   :class="
                     activeProduct == 'Decks' ? 'bg-blue-primary' : 'bg-gray-800'
                   "
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
+                  class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Decks'"
                 >
                   <h2 class="text-lg text-white font-medium font-subheading">
@@ -95,7 +95,7 @@
                       ? 'bg-blue-primary'
                       : 'bg-gray-800'
                   "
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
+                  class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Telehab'"
                 >
                   <h2 class="text-lg text-white font-medium font-subheading">
@@ -112,7 +112,7 @@
                       ? 'bg-blue-primary'
                       : 'bg-gray-800'
                   "
-                  class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
+                  class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Recovery'"
                 >
                   <h2 class="text-lg text-white font-medium font-subheading">
