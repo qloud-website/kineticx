@@ -13,7 +13,7 @@
               class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
               @click="activeProduct = 'Humantrack'"
             >
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 Humantrack
               </h2>
             </div>
@@ -26,7 +26,7 @@
               class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
               @click="activeProduct = 'Nordbord'"
             >
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 Nordbord
               </h2>
             </div>
@@ -41,7 +41,7 @@
               class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
               @click="activeProduct = 'Forceframe'"
             >
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 ForceFrame
               </h2>
             </div>
@@ -54,7 +54,7 @@
               class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
               @click="activeProduct = 'Airbrands'"
             >
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 Airbands
               </h2>
             </div>
@@ -67,7 +67,7 @@
               class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
               @click="activeProduct = 'Decks'"
             >
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 ForceDecks
               </h2>
             </div>

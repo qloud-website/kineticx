@@ -33,6 +33,16 @@ export default {
         type: 'image/x-icon',
         href: '/kineticx-favicon.png',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap',
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.cdnfonts.com/css/metropolis-2?styles=21184,21188,21176,21177,21185,21189,21178,21179,21174,21175',
+      },
     ],
   },
   /*

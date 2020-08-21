@@ -18,13 +18,13 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-heading sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
             Recover Effectively
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed font-xl"
+            class="mb-8 leading-relaxed font-description font-xl"
           >
             Recover faster comfortably
           </p>
@@ -41,13 +41,13 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-heading sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
             Muscle Release Stretch
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed"
+            class="mb-8 leading-relaxed font-description"
           >
             Relax and you will recover in no time.
           </p>

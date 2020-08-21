@@ -10,13 +10,13 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="title-font sm:text-5xl text-5xl mb-4 font-medium text-white"
+            class="font-heading sm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Rehabilitate properly
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed"
+            class="mb-8 leading-relaxed font-description"
           >
             Find your way back to fitness properly by carefully designed
             programs, monitored by certified professionals.
@@ -46,11 +46,11 @@
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               General Injury Treatment
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed text-md font-description">
               Injury caused by daily activities or lifestyle. Lower back pain
               from sitting too long, shoulder pain after pregnancy and knee pain
               in elderly people are among the most common injuries.
@@ -65,11 +65,11 @@
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Sport Injury Treatment
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed font-description">
               Our sports injury specialists use evidence-based practice to treat
               sports injuries in the shortest possible time.
             </p>
@@ -83,11 +83,11 @@
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Pre/Post Surgery Treatment
             </h2>
-            <p class="leading-relaxed text-base"></p>
+            <p class="leading-relaxed font-description"></p>
           </div>
         </div>
       </div>

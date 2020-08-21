@@ -18,7 +18,7 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-heading sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
             Evaluate accuratelly
           </h1>
@@ -46,11 +46,11 @@
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Human Movement Screening
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed font-description">
               Measure your movement patterns that have lead to injury. Our
               toolbox of assesment include balance and posture, range of motion.
               People with back pain, knee, shoulder injuries, headaches or
@@ -62,15 +62,15 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/force-frame/IMG_4794.JPG"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-2.jpg"
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Muscle Strength Test
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed font-description">
               Muscle strength testing is an important component of the physical
               exam that can be used to evaluate weakness in our body and can be
               effective in differentiating true weaknesses from imbalance or
@@ -82,15 +82,15 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/humantrack/humantrack-2.png"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-3.jpg"
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Performance Test
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed font-description">
               The fastest, easiest and most powerful dual plate system for
               analysing neuromuscular strength, performance and imbalance.
             </p>
@@ -104,11 +104,11 @@
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Return to Sport Test
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed font-description">
               Measuring and gathering data used by clinicians to evaluate the
               individual's readiness to return safely to sport.
             </p>

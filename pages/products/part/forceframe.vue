@@ -4,13 +4,13 @@
       <div class="flex items-center w-full mb-20 flex-wrap">
         <h1
           v-scroll-reveal.reset="{ delay: 100 }"
-          class="sm:text-5xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4"
+          class="sm:text-5xl text-2xl font-medium font-subheading text-white lg:w-1/3 lg:mb-0 mb-4"
         >
           Force Frame
         </h1>
         <p
           v-scroll-reveal.reset="{ delay: 200 }"
-          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base"
+          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed"
         >
           Isometric strength testing and training across upper and lower body.
           Measure and train strength in 35+ different positions and muscle

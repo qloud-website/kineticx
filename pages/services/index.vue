@@ -18,7 +18,7 @@
                 src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-1.jpg"
                 alt="content"
               />
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 EVALUATE
               </h2>
             </div>
@@ -36,7 +36,7 @@
                 src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-2.jpg"
                 alt="content"
               />
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 REHABILITATE
               </h2>
             </div>
@@ -56,7 +56,7 @@
                 src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/recovery/image-2.jpg"
                 alt="content"
               />
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 RECOVERY
               </h2>
             </div>
@@ -74,7 +74,7 @@
                 src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-1.jpg"
                 alt="content"
               />
-              <h2 class="text-lg text-white font-medium title-font">
+              <h2 class="text-lg text-white font-medium font-subheading">
                 IMPROVE
               </h2>
             </div>

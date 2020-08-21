@@ -33,19 +33,29 @@
           </h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-white">Humantrack</a>
+              <nuxt-link to="/products" class="text-gray-600 hover:text-white"
+                >Humantrack</nuxt-link
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">Nordbord</a>
+              <nuxt-link to="/products" class="text-gray-600 hover:text-white"
+                >Nordbord</nuxt-link
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">ForceFrame</a>
+              <nuxt-link to="/products" class="text-gray-600 hover:text-white"
+                >ForceFrame</nuxt-link
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">Airbands</a>
+              <nuxt-link to="/products" class="text-gray-600 hover:text-white"
+                >Airbands</nuxt-link
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">Forcedecks</a>
+              <nuxt-link to="/products" class="text-gray-600 hover:text-white"
+                >Forcedecks</nuxt-link
+              >
             </li>
           </nav>
         </div>
@@ -57,16 +67,32 @@
           </h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-white">Evaluate</a>
+              <nuxt-link
+                to="/services?c=evaluate"
+                class="text-gray-600 hover:text-white"
+                >Evaluate</nuxt-link
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">Rehabilitate</a>
+              <nuxt-link
+                to="/services?c=rehab"
+                class="text-gray-600 hover:text-white"
+                >Rehabilitate</nuxt-link
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">Recovery</a>
+              <nuxt-link
+                to="/services?c=recovery"
+                class="text-gray-600 hover:text-white"
+                >Recovery</nuxt-link
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">Improve</a>
+              <nuxt-link
+                to="/services?c=improve"
+                class="text-gray-600 hover:text-white"
+                >Improve</nuxt-link
+              >
             </li>
           </nav>
         </div>
@@ -78,10 +104,20 @@
           </h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-white">Instagram</a>
+              <a
+                href="https://www.instagram.com/kineticx.id/"
+                target="_blank"
+                class="text-gray-600 hover:text-white"
+                >Instagram</a
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-white">Twitter</a>
+              <a
+                href="https://twitter.com/kineticxid"
+                target="_blank"
+                class="text-gray-600 hover:text-white"
+                >Twitter</a
+              >
             </li>
           </nav>
         </div>

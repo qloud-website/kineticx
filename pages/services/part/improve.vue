@@ -10,13 +10,13 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="title-font sm:text-5xl text-5xl mb-4 font-medium text-white"
+            class="font-heading sm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Improve safely
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed"
+            class="mb-8 leading-relaxed font-description"
           >
             Combining latest research and technology in body and sport science
             to improve your physique performance safely.
@@ -46,11 +46,11 @@
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Body Correction Program
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed font-description">
               Exercises that stretch, strengthen and train you as you heal and
               develop body awareness and movement skills
             </p>
@@ -64,11 +64,11 @@
               />
             </div>
             <h2
-              class="title-font text-5xl font-medium text-white mt-6 mb-3 leading-none"
+              class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
               Telehab Virtual
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="leading-relaxed font-description">
               Train everywhere, anytime and get the same smart result.
             </p>
           </div>

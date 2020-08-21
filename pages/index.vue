@@ -13,10 +13,10 @@
                 class="bg-black bg-opacity-25 flex items-center h-full px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold">
+                  <h2 class="text-5xl text-white font-semibold font-heading">
                     World-class Testing Technologies
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400">
+                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
                     Helping active individuals and sport and medical
                     professionals to get the right information, for the right
                     decision at the right time.
@@ -40,10 +40,10 @@
                 class="bg-black bg-opacity-25 flex items-center justify-end text-right h-full px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold">
+                  <h2 class="text-5xl text-white font-semibold font-heading">
                     The Best in Field-based Measurement
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400">
+                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
                     Helping active individuals and sport and medical
                     professionals to get the right information, for the right
                     decision at the right time.
@@ -67,10 +67,10 @@
                 class="bg-black bg-opacity-25 flex items-center h-full px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold">
+                  <h2 class="text-5xl text-white font-semibold font-heading">
                     Train Smarter
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400">
+                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
                     If you can measure it, you can improve it.
                   </p>
                   <nuxt-link
@@ -92,10 +92,10 @@
                 class="bg-black bg-opacity-25 flex items-center h-full px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold">
+                  <h2 class="text-5xl text-white font-semibold font-heading">
                     Telehab Virtual
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400">
+                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
                     Train everywhere, anytime and get the same smart result.
                   </p>
                   <nuxt-link
@@ -133,13 +133,13 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Evaluate accuratelly
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed font-xl"
+            class="mb-8 leading-relaxed font-xl font-description"
           >
             3D motion capture biomechanical analiysis, <br />
             Helping you see what the eye can’t
@@ -170,7 +170,7 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Rehabilitate properly
           </h1>
@@ -223,13 +223,13 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Improve safely
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed font-xl"
+            class="mb-8 leading-relaxed font-xl font-description"
           >
             Combining latest research and technology in body and sport science
             to improve your physique performance safely.
@@ -260,7 +260,7 @@
         >
           <h1
             v-scroll-reveal.reset="{ delay: 100 }"
-            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Recover Effectively
           </h1>
