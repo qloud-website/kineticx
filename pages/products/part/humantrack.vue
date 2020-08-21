@@ -10,10 +10,10 @@
         </h1>
         <p
           v-scroll-reveal.reset="{ delay: 200 }"
-          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed"
+          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed font-description"
         >
-          3D motion capture anda biomechanical analysis. Helping you see what
-          the eye can't.
+          3D motion capture biomechanical analiysis, Helping you see what the
+          eye can’t.
         </p>
       </div>
       <div

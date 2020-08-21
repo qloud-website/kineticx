@@ -139,7 +139,7 @@
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 200 }"
-            class="mb-8 leading-relaxed font-xl font-description"
+            class="mb-8 leading-relaxed font-description"
           >
             3D motion capture biomechanical analiysis, <br />
             Helping you see what the eye can’t
@@ -176,7 +176,7 @@
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="mb-8 leading-relaxed"
+            class="mb-8 leading-relaxed font-description"
           >
             Find your way back to fitness properly by carefully designed
             programs, monitored by certified professionals.
@@ -266,7 +266,7 @@
           </h1>
           <p
             v-scroll-reveal.reset="{ delay: 150 }"
-            class="mb-8 leading-relaxed"
+            class="mb-8 leading-relaxed font-description"
           >
             Recover faster comfortably.
           </p>

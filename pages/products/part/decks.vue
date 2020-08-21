@@ -10,7 +10,7 @@
         </h1>
         <p
           v-scroll-reveal.reset="{ delay: 200 }"
-          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed"
+          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed font-description"
         >
           Dual high-accuracy force platforms and seamless auto-analysis
           software. Analyse balance, strength and movement strategies in a range

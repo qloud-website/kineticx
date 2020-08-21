@@ -10,7 +10,7 @@
         </h1>
         <p
           v-scroll-reveal.reset="{ delay: 200 }"
-          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed"
+          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed font-description"
         >
           Isometric strength testing and training across upper and lower body.
           Measure and train strength in 35+ different positions and muscle

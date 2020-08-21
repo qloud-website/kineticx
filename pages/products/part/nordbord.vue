@@ -10,7 +10,7 @@
         </h1>
         <p
           v-scroll-reveal.reset="{ delay: 200 }"
-          class="lg:w-2/3 mx-auto leading-relaxed"
+          class="lg:w-2/3 mx-auto leading-relaxed font-description"
         >
           Combining advanced, real - team data visualisation and cloud
           analytics, the NordBord accurately measure,monitors,and trains an
