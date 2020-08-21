@@ -9,13 +9,13 @@
           class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
         >
           <h1
-            v-scroll-reveal.reset="{ delay: 100 }"
+            v-scroll-reveal="{ delay: 100 }"
             class="font-heading sm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Improve safely
           </h1>
           <p
-            v-scroll-reveal.reset="{ delay: 200 }"
+            v-scroll-reveal="{ delay: 200 }"
             class="mb-8 leading-relaxed font-description"
           >
             Combining latest research and technology in body and sport science
@@ -24,7 +24,7 @@
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            v-scroll-reveal.reset="{ delay: 300 }"
+            v-scroll-reveal="{ delay: 300 }"
             class="object-cover object-center rounded"
             alt="hero"
             src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-3.jpg"
@@ -42,7 +42,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="~/assets/img/services/improve/body_corection.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-4.jpg"
               />
             </div>
             <h2
@@ -60,7 +60,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="~/assets/img/services/improve/telehab_virtual.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-5.jpg"
               />
             </div>
             <h2

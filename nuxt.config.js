@@ -53,7 +53,10 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: '~/plugins/v-scroll-reveal.js', ssr: false }],
+  plugins: [
+    { src: '~/plugins/global.js', ssr: false },
+    { src: '~/plugins/v-scroll-reveal.js', ssr: false },
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components

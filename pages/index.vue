@@ -10,7 +10,7 @@
               style="background-image: url('/img/slider/249487.png');"
             >
               <div
-                class="bg-black bg-opacity-50 flex items-center h-full px-20"
+                class="bg-black bg-opacity-50 flex items-center h-full px-20 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
                   <h2 class="text-5xl text-white font-semibold font-heading">
@@ -34,7 +34,7 @@
               style="background-image: url('/img/slider/image-5.jpg');"
             >
               <div
-                class="bg-black bg-opacity-25 flex items-center h-full px-20"
+                class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
                   <h2 class="text-5xl text-white font-semibold font-heading">
@@ -60,7 +60,7 @@
               style="background-image: url('/img/slider/image-6.jpg');"
             >
               <div
-                class="bg-black bg-opacity-25 flex items-center justify-end text-right h-full px-20"
+                class="bg-black bg-opacity-25 flex items-center justify-end text-right h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
                   <h2 class="text-5xl text-white font-semibold font-heading">
@@ -86,7 +86,7 @@
               style="background-image: url('/img/slider/image-4.jpg');"
             >
               <div
-                class="bg-black bg-opacity-25 flex items-center h-full px-20"
+                class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
                   <h2 class="text-5xl text-white font-semibold font-heading">
@@ -114,29 +114,29 @@
     <!-- Content 2 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        class="container mx-auto flex px-5 py-16 mt-16 md:flex-row flex-col items-center"
       >
         <div
           class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 transition duration-500 ease-in-out transform hover:scale-110"
         >
           <img
-            v-scroll-reveal.reset="{ delay: 100 }"
-            class="object-cover object-center rounded"
+            v-scroll-reveal="{ delay: 100 }"
+            class="w-128 h-96 object-cover object-center rounded"
             alt="hero"
-            src="~/assets/img/home/Evaluet_VALD_HumanTrak_IMG_4653_RGB_HR.jpg"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/evaluate.jpg"
           />
         </div>
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
         >
           <h1
-            v-scroll-reveal.reset="{ delay: 150 }"
+            v-scroll-reveal="{ delay: 150 }"
             class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Evaluate accuratelly
           </h1>
           <p
-            v-scroll-reveal.reset="{ delay: 200 }"
+            v-scroll-reveal="{ delay: 200 }"
             class="mb-8 leading-relaxed font-description"
           >
             3D motion capture biomechanical analiysis,
@@ -144,7 +144,7 @@
           </p>
           <div class="flex justify-center">
             <nuxt-link
-              v-scroll-reveal.reset="{ delay: 100 }"
+              v-scroll-reveal="{ delay: 100 }"
               class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
               :to="{
                 path: '/services',
@@ -160,19 +160,19 @@
     <!-- Content 3 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center"
       >
         <div
           class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
         >
           <h1
-            v-scroll-reveal.reset="{ delay: 100 }"
+            v-scroll-reveal="{ delay: 100 }"
             class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Rehabilitate properly
           </h1>
           <p
-            v-scroll-reveal.reset="{ delay: 150 }"
+            v-scroll-reveal="{ delay: 150 }"
             class="mb-8 leading-relaxed font-description"
           >
             Find your way back to fitness properly by carefully designed
@@ -180,7 +180,7 @@
           </p>
           <div class="flex justify-center">
             <nuxt-link
-              v-scroll-reveal.reset="{ delay: 250 }"
+              v-scroll-reveal="{ delay: 250 }"
               :to="{
                 path: '/services',
                 query: { c: 'rehab' },
@@ -194,10 +194,10 @@
           class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition duration-500 ease-in-out transform hover:scale-110"
         >
           <img
-            v-scroll-reveal.reset="{ delay: 300 }"
-            class="object-cover object-center rounded"
+            v-scroll-reveal="{ delay: 300 }"
+            class="w-128 h-96 object-cover object-center rounded"
             alt="hero"
-            src="~/assets/img/home/Rehab_0008725_lymphatouch.jpg"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/rehab.jpg"
           />
         </div>
       </div>
@@ -206,29 +206,29 @@
     <!-- Content 4 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center"
       >
         <div
           class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 transition duration-500 ease-in-out transform hover:scale-110"
         >
           <img
-            v-scroll-reveal.reset="{ delay: 100 }"
-            class="object-cover object-center rounded"
+            v-scroll-reveal="{ delay: 100 }"
+            class="w-128 h-96 object-cover object-center rounded"
             alt="hero"
-            src="~/assets/img/home/Improve_Trainer-1.png"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/improve.png"
           />
         </div>
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
         >
           <h1
-            v-scroll-reveal.reset="{ delay: 150 }"
+            v-scroll-reveal="{ delay: 150 }"
             class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Improve safely
           </h1>
           <p
-            v-scroll-reveal.reset="{ delay: 200 }"
+            v-scroll-reveal="{ delay: 200 }"
             class="mb-8 leading-relaxed font-xl font-description"
           >
             Combining latest research and technology in body and sport science
@@ -236,7 +236,7 @@
           </p>
           <div class="flex justify-center">
             <nuxt-link
-              v-scroll-reveal.reset="{ delay: 100 }"
+              v-scroll-reveal="{ delay: 100 }"
               :to="{
                 path: '/services',
                 query: { c: 'improve' },
@@ -252,26 +252,26 @@
     <!-- Content 5 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center"
       >
         <div
           class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
         >
           <h1
-            v-scroll-reveal.reset="{ delay: 100 }"
+            v-scroll-reveal="{ delay: 100 }"
             class="font-headingsm:text-5xl text-5xl mb-4 font-medium text-white"
           >
             Recover Effectively
           </h1>
           <p
-            v-scroll-reveal.reset="{ delay: 150 }"
+            v-scroll-reveal="{ delay: 150 }"
             class="mb-8 leading-relaxed font-description"
           >
             Recover faster comfortably.
           </p>
           <div class="flex justify-center">
             <nuxt-link
-              v-scroll-reveal.reset="{ delay: 250 }"
+              v-scroll-reveal="{ delay: 250 }"
               :to="{
                 path: '/services',
                 query: { c: 'recovery' },
@@ -285,10 +285,10 @@
           class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition duration-500 ease-in-out transform hover:scale-110"
         >
           <img
-            v-scroll-reveal.reset="{ delay: 300 }"
-            class="object-cover object-center rounded"
+            v-scroll-reveal="{ delay: 300 }"
+            class="w-128 h-96 object-cover object-center rounded"
             alt="hero"
-            src="~/assets/img/home/Recovery_treatments.jpg"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/recover.jpg"
           />
         </div>
       </div>
