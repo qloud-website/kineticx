@@ -6,7 +6,7 @@ export default {
   generate: {
     fallback: true,
   },
-  mode: 'universal',
+  mode: 'spa',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
