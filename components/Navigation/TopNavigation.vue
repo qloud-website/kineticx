@@ -24,7 +24,7 @@
           :class="
             $route.name.includes('index') ? 'bg-blue-primary text-white' : ''
           "
-          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-4 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
           >Home
         </nuxt-link>
         <nuxt-link
@@ -35,7 +35,7 @@
           :class="
             $route.name.includes('services') ? 'bg-blue-primary text-white' : ''
           "
-          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-4 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
           >Services
         </nuxt-link>
         <nuxt-link
@@ -43,7 +43,7 @@
           :class="
             $route.name.includes('products') ? 'bg-blue-primary text-white' : ''
           "
-          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-4 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
           >Products
         </nuxt-link>
         <nuxt-link
@@ -52,7 +52,7 @@
           :class="
             $route.name.includes('contact') ? 'bg-blue-primary text-white' : ''
           "
-          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-4 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
           >Contact
         </nuxt-link>
       </nav>
