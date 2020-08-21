@@ -120,7 +120,9 @@
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+        <div
+          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 transition duration-500 ease-in-out transform hover:scale-110"
+        >
           <img
             v-scroll-reveal.reset="{ delay: 100 }"
             class="object-cover object-center rounded"
@@ -194,7 +196,9 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div
+          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition duration-500 ease-in-out transform hover:scale-110"
+        >
           <img
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded"
@@ -210,7 +214,9 @@
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+        <div
+          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 transition duration-500 ease-in-out transform hover:scale-110"
+        >
           <img
             v-scroll-reveal.reset="{ delay: 100 }"
             class="object-cover object-center rounded"
@@ -283,7 +289,9 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div
+          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition duration-500 ease-in-out transform hover:scale-110"
+        >
           <img
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded"
