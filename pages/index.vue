@@ -7,6 +7,30 @@
           <swiper-slide>
             <div
               class="h-screen rounded-md overflow-hidden bg-cover bg-center"
+              style="background-image: url('/img/slider/249487.png');"
+            >
+              <div
+                class="bg-black bg-opacity-50 flex items-center h-full px-20"
+              >
+                <div class="px-10 max-w-xl">
+                  <h2 class="text-5xl text-white font-semibold font-heading">
+                    Telehab Virtual
+                  </h2>
+                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
+                    Train everywhere, anytime and get the same smart result.
+                  </p>
+                  <nuxt-link
+                    to="/products"
+                    class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    >Learn More</nuxt-link
+                  >
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div
+              class="h-screen rounded-md overflow-hidden bg-cover bg-center"
               style="background-image: url('/img/slider/image-5.jpg');"
             >
               <div
@@ -24,13 +48,12 @@
                   <nuxt-link
                     to="/products"
                     class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    >Learn More</nuxt-link
                   >
-                    Learn More
-                  </nuxt-link>
                 </div>
               </div>
-            </div></swiper-slide
-          >
+            </div>
+          </swiper-slide>
           <swiper-slide>
             <div
               class="h-screen rounded-md overflow-hidden bg-cover bg-center"
@@ -51,13 +74,12 @@
                   <nuxt-link
                     to="/products"
                     class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    >Learn More</nuxt-link
                   >
-                    Learn More
-                  </nuxt-link>
                 </div>
               </div>
-            </div></swiper-slide
-          >
+            </div>
+          </swiper-slide>
           <swiper-slide>
             <div
               class="h-screen rounded-md overflow-hidden bg-cover bg-center"
@@ -76,38 +98,12 @@
                   <nuxt-link
                     to="/products"
                     class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    >Learn More</nuxt-link
                   >
-                    Learn More
-                  </nuxt-link>
                 </div>
               </div>
-            </div></swiper-slide
-          >
-          <swiper-slide>
-            <div
-              class="h-screen rounded-md overflow-hidden bg-cover bg-center"
-              style="background-image: url('/img/slider/image-2.jpg');"
-            >
-              <div
-                class="bg-black bg-opacity-25 flex items-center h-full px-20"
-              >
-                <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold font-heading">
-                    Telehab Virtual
-                  </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
-                    Train everywhere, anytime and get the same smart result.
-                  </p>
-                  <nuxt-link
-                    to="/products"
-                    class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-                  >
-                    Learn More
-                  </nuxt-link>
-                </div>
-              </div>
-            </div></swiper-slide
-          >
+            </div>
+          </swiper-slide>
           <div slot="pagination" class="swiper-pagination"></div>
           <div slot="button-prev" class="swiper-button-prev"></div>
           <div slot="button-next" class="swiper-button-next"></div>
@@ -127,7 +123,7 @@
             v-scroll-reveal.reset="{ delay: 100 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-1.jpg"
+            src="~/assets/img/home/Evaluet_VALD_HumanTrak_IMG_4653_RGB_HR.jpg"
           />
         </div>
         <div
@@ -143,8 +139,8 @@
             v-scroll-reveal.reset="{ delay: 200 }"
             class="mb-8 leading-relaxed font-description"
           >
-            3D motion capture biomechanical analiysis, <br />
-            Helping you see what the eye can’t
+            3D motion capture biomechanical analiysis,
+            <br />Helping you see what the eye can’t
           </p>
           <div class="flex justify-center">
             <nuxt-link
@@ -154,9 +150,8 @@
                 path: '/services',
                 query: { c: 'evaluate' },
               }"
+              >Learn More</nuxt-link
             >
-              Learn More
-            </nuxt-link>
           </div>
         </div>
       </div>
@@ -191,9 +186,8 @@
                 query: { c: 'rehab' },
               }"
               class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >Learn More</nuxt-link
             >
-              Learn More
-            </nuxt-link>
           </div>
         </div>
         <div
@@ -203,7 +197,7 @@
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-2.jpg"
+            src="~/assets/img/home/Rehab_0008725_lymphatouch.jpg"
           />
         </div>
       </div>
@@ -221,7 +215,7 @@
             v-scroll-reveal.reset="{ delay: 100 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-1.jpg"
+            src="~/assets/img/home/Improve_Trainer-1.png"
           />
         </div>
         <div
@@ -248,9 +242,8 @@
                 query: { c: 'improve' },
               }"
               class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >Learn More</nuxt-link
             >
-              Learn More
-            </nuxt-link>
           </div>
         </div>
       </div>
@@ -284,9 +277,8 @@
                 query: { c: 'recovery' },
               }"
               class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >Learn More</nuxt-link
             >
-              Learn More
-            </nuxt-link>
           </div>
         </div>
         <div
@@ -296,7 +288,7 @@
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/recovery/image-2.jpg"
+            src="~/assets/img/home/Recovery_treatments.jpg"
           />
         </div>
       </div>

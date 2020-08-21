@@ -42,7 +42,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-1.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-2.jpg"
               />
             </div>
             <h2
@@ -61,7 +61,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-2.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-1.jpg"
               />
             </div>
             <h2
@@ -79,7 +79,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/rehab/image-3.jpg"
+                src="~/assets/img/services/rehab/prepost.jpg"
               />
             </div>
             <h2
@@ -87,7 +87,10 @@
             >
               Pre/Post Surgery Treatment
             </h2>
-            <p class="leading-relaxed font-description"></p>
+            <p class="leading-relaxed font-description">
+              Prepare your body before the medical operation to optimize surgery
+              result and faster recovery after the procedure.
+            </p>
           </div>
         </div>
       </div>

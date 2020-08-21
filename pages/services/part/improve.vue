@@ -42,7 +42,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-1.jpg"
+                src="~/assets/img/services/improve/body_corection.jpg"
               />
             </div>
             <h2
@@ -60,7 +60,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/improve/image-2.jpg"
+                src="~/assets/img/services/improve/telehab_virtual.jpg"
               />
             </div>
             <h2

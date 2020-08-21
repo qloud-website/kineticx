@@ -10,7 +10,7 @@
             v-scroll-reveal.reset="{ delay: 100 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/recovery/image-2.jpg"
+            src="~/assets/img/services/recovery/recover.jpg"
           />
         </div>
         <div
@@ -57,7 +57,7 @@
             v-scroll-reveal.reset="{ delay: 300 }"
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/recovery/image-1.jpg"
+            src="~/assets/img/services/recovery/muscle.jpeg"
           />
         </div>
       </div>
