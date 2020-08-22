@@ -4,14 +4,14 @@
     class="text-gray-500 bg-transparent body-font z-50"
   >
     <div
-      class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center"
+      class="flex flex-wrap py-1 px-1 sm:px-1 md:px-10 lg:px-10 flex-col md:flex-row items-center"
     >
       <nuxt-link
         to="/"
         class="flex title-font font-medium items-center text-white md:mb-0"
       >
         <img
-          class="h-12"
+          class="h-20"
           src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-logo.png"
           alt=""
         />
@@ -24,16 +24,8 @@
           :class="
             $route.name.includes('index') ? 'bg-blue-primary text-white' : ''
           "
-          class="rounded mr-10 px-4 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
           >Home
-        </nuxt-link>
-        <nuxt-link
-          to="/products"
-          :class="
-            $route.name.includes('products') ? 'bg-blue-primary text-white' : ''
-          "
-          class="rounded mr-10 px-4 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
-          >Products
         </nuxt-link>
         <nuxt-link
           :to="{
@@ -43,11 +35,29 @@
           :class="
             $route.name.includes('services') ? 'bg-blue-primary text-white' : ''
           "
-          class="rounded mr-10 px-4 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
           >Services
+        </nuxt-link>
+        <nuxt-link
+          to="/products"
+          :class="
+            $route.name.includes('products') ? 'bg-blue-primary text-white' : ''
+          "
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          >Products
+        </nuxt-link>
+        <nuxt-link
+          v-if="$isMobile()"
+          to="/contact"
+          :class="
+            $route.name.includes('contact') ? 'bg-blue-primary text-white' : ''
+          "
+          class="rounded mr-1 sm:mr-1 md:mr-10 lg:mr-10 px-2 py-1 transition duration-500 ease-in-out hover:text-white hover:bg-blue-primary transform hover:scale-110"
+          >Contact
         </nuxt-link>
       </nav>
       <nuxt-link
+        v-if="!$isMobile()"
         to="/contact"
         :class="
           $route.name.includes('contact') ? 'bg-blue-primary text-white' : ''

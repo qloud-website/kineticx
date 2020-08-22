@@ -7,7 +7,7 @@
       >
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img
-            v-scroll-reveal.reset="{ delay: 100 }"
+            v-scroll-reveal="{ delay: 100 }"
             class="object-cover object-center rounded"
             alt="hero"
             src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-1.jpg"
@@ -17,17 +17,17 @@
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
         >
           <h1
-            v-scroll-reveal.reset="{ delay: 150 }"
+            v-scroll-reveal="{ delay: 150 }"
             class="font-heading sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
             Evaluate accuratelly
           </h1>
           <p
-            v-scroll-reveal.reset="{ delay: 200 }"
+            v-scroll-reveal="{ delay: 200 }"
             class="mb-8 leading-relaxed font-description"
           >
             3D motion capture biomechanical analiysis, <br />
-            Helping you see what the eye can’t
+            Helping you see what the eye can’t.
           </p>
         </div>
       </div>

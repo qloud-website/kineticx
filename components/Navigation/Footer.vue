@@ -12,14 +12,12 @@
           <img
             class="h-16"
             src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-logo.png"
-            alt=""
+            alt
           />
         </a>
         <p class="mt-2 text-sm text-gray-700">
-          Jalan Musi 20, Surabaya <br />
-          Jawa Timur Indonesia <br />
-          admin@kineticx.id <br />
-          1234
+          Jalan Musi 20, Surabaya
+          <br />Jawa Timur Indonesia <br />cs@kineticx.id <br />08113520475
         </p>
       </div>
       <div
@@ -32,6 +30,12 @@
             PRODUCTS
           </h2>
           <nav class="list-none mb-10">
+            <li>
+              <nuxt-link to="/products" class="text-gray-600 hover:text-white"
+                >Airbands</nuxt-link
+              >
+            </li>
+
             <li>
               <nuxt-link to="/products" class="text-gray-600 hover:text-white"
                 >Humantrack</nuxt-link
@@ -49,12 +53,17 @@
             </li>
             <li>
               <nuxt-link to="/products" class="text-gray-600 hover:text-white"
-                >Airbands</nuxt-link
+                >Forcedecks</nuxt-link
               >
             </li>
             <li>
               <nuxt-link to="/products" class="text-gray-600 hover:text-white"
-                >Forcedecks</nuxt-link
+                >Telehab</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link to="/products" class="text-gray-600 hover:text-white"
+                >Recovery Equipment</nuxt-link
               >
             </li>
           </nav>
@@ -82,16 +91,16 @@
             </li>
             <li>
               <nuxt-link
-                to="/services?c=recovery"
+                to="/services?c=improve"
                 class="text-gray-600 hover:text-white"
-                >Recovery</nuxt-link
+                >Improve</nuxt-link
               >
             </li>
             <li>
               <nuxt-link
-                to="/services?c=improve"
+                to="/services?c=recovery"
                 class="text-gray-600 hover:text-white"
-                >Improve</nuxt-link
+                >Recovery</nuxt-link
               >
             </li>
           </nav>
@@ -103,6 +112,15 @@
             Social Media
           </h2>
           <nav class="list-none mb-10">
+            <li>
+              <a
+                href="https://twitter.com/kineticxid"
+                target="_blank"
+                class="text-gray-600 hover:text-white"
+                >Facebook</a
+              >
+            </li>
+
             <li>
               <a
                 href="https://www.instagram.com/kineticx.id/"
@@ -154,7 +172,7 @@
             >
               <path
                 d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-              ></path>
+              />
             </svg>
           </a>
           <a
@@ -171,10 +189,10 @@
               class="w-5 h-5"
               viewBox="0 0 24 24"
             >
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
               <path
                 d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
-              ></path>
+              />
             </svg>
           </a>
         </span>

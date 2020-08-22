@@ -19,7 +19,7 @@
       </div>
       <div class="flex flex-wrap">
         <div
-          v-scroll-reveal.reset="{ delay: 100 }"
+          v-scroll-reveal="{ delay: 100 }"
           class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
         >
           <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
@@ -45,7 +45,7 @@
           </a>
         </div>
         <div
-          v-scroll-reveal.reset="{ delay: 150 }"
+          v-scroll-reveal="{ delay: 150 }"
           class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
         >
           <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
@@ -71,7 +71,7 @@
           </a>
         </div>
         <div
-          v-scroll-reveal.reset="{ delay: 200 }"
+          v-scroll-reveal="{ delay: 200 }"
           class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
         >
           <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
@@ -97,7 +97,7 @@
           </a>
         </div>
         <div
-          v-scroll-reveal.reset="{ delay: 250 }"
+          v-scroll-reveal="{ delay: 250 }"
           class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
         >
           <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
@@ -124,7 +124,7 @@
         </div>
       </div>
       <button
-        v-scroll-reveal.reset="{ delay: 300 }"
+        v-scroll-reveal="{ delay: 300 }"
         class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
       >
         Button
