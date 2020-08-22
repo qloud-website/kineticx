@@ -11,30 +11,15 @@
         <p
           v-scroll-reveal="{ delay: 200 }"
           class="lg:w-2/3 mx-auto leading-relaxed font-description"
-        >
-          Combining advanced, real - team data visualisation and cloud
-          analytics, the NordBord accurately measure,monitors,and trains an
-          individua's hamstring strength and imbalance.
-        </p>
+        ></p>
       </div>
-      <div class="flex flex-wrap -m-4">
-        <div v-scroll-reveal="{ delay: 300 }" class="lg:w-1/2 sm:w-1/2 p-4">
-          <div class="flex relative h-96">
-            <img
-              alt="gallery"
-              class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/recovery/image-1.jpg"
-            />
-          </div>
-        </div>
-        <div v-scroll-reveal="{ delay: 400 }" class="lg:w-1/2 sm:w-1/2 p-4">
-          <div class="flex relative h-96">
-            <img
-              alt="gallery"
-              class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/products/recovery/image-2.png"
-            />
-          </div>
+      <div class="flex flex-wrap -m-4 object-center">
+        <div v-scroll-reveal="{ delay: 300 }" class="lg:w-full sm:w-full p-4">
+          <img
+            alt="gallery"
+            class="object-center"
+            src="~/assets/img/products/recovery/rcvry.png"
+          />
         </div>
       </div>
     </div>

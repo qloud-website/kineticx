@@ -14,7 +14,7 @@
         >
           Combining advanced, real - team data visualisation and cloud
           analytics, the NordBord accurately measure,monitors,and trains an
-          individua's hamstring strength and imbalance.
+          individual's hamstring strength and imbalance.
         </p>
       </div>
       <div class="flex flex-wrap -m-4">

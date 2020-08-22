@@ -26,7 +26,7 @@
             v-scroll-reveal="{ delay: 200 }"
             class="mb-8 leading-relaxed font-description font-xl"
           >
-            Recover faster comfortably
+            Recover faster comfortably.
           </p>
         </div>
       </div>

@@ -27,7 +27,7 @@
             class="mb-8 leading-relaxed font-description"
           >
             3D motion capture biomechanical analiysis, <br />
-            Helping you see what the eye can’t
+            Helping you see what the eye can’t.
           </p>
         </div>
       </div>

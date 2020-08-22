@@ -52,7 +52,7 @@
             </h2>
             <p class="leading-relaxed font-description">
               Exercises that stretch, strengthen and train you as you heal and
-              develop body awareness and movement skills
+              develop body awareness and movement skills.
             </p>
           </div>
           <div class="sm:w-1/2 mb-10 p-4">

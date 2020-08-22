@@ -15,7 +15,7 @@
                   class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Airbrands'"
                 >
-                  <h2 class="text-lg text-white font-medium font-subheading">
+                  <h2 class="text-sm text-white font-medium font-subheading">
                     Airbands
                   </h2>
                 </div>
@@ -32,7 +32,7 @@
                   class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Humantrack'"
                 >
-                  <h2 class="text-lg text-white font-medium font-subheading">
+                  <h2 class="text-sm text-white font-medium font-subheading">
                     Humantrack
                   </h2>
                 </div>
@@ -49,7 +49,7 @@
                   class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Nordbord'"
                 >
-                  <h2 class="text-lg text-white font-medium font-subheading">
+                  <h2 class="text-sm text-white font-medium font-subheading">
                     Nordbord
                   </h2>
                 </div>
@@ -66,7 +66,7 @@
                   class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Forceframe'"
                 >
-                  <h2 class="text-lg text-white font-medium font-subheading">
+                  <h2 class="text-sm text-white font-medium font-subheading">
                     ForceFrame
                   </h2>
                 </div>
@@ -81,7 +81,7 @@
                   class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Decks'"
                 >
-                  <h2 class="text-lg text-white font-medium font-subheading">
+                  <h2 class="text-sm text-white font-medium font-subheading">
                     ForceDecks
                   </h2>
                 </div>
@@ -98,7 +98,7 @@
                   class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Telehab'"
                 >
-                  <h2 class="text-lg text-white font-medium font-subheading">
+                  <h2 class="text-sm text-white font-medium font-subheading">
                     Telehab
                   </h2>
                 </div>
@@ -115,8 +115,8 @@
                   class="p-4 rounded-lg cursor-pointer"
                   @click="activeProduct = 'Recovery'"
                 >
-                  <h2 class="text-lg text-white font-medium font-subheading">
-                    Recovery
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    Recovery Equipment
                   </h2>
                 </div>
               </div></swiper-slide
@@ -124,101 +124,127 @@
           </swiper>
         </div>
         <div v-show="!$isMobile()" class="flex flex-wrap -m-8">
-          <div class="w-1/6 p-4">
-            <div
-              :class="
-                activeProduct == 'Airbrands' ? 'bg-blue-primary' : 'bg-gray-800'
-              "
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
-              @click="activeProduct = 'Airbrands'"
+          <swiper class="swiper" :options="swiperOption2">
+            <swiper-slide>
+              <div class="w-full px-2">
+                <div
+                  :class="
+                    activeProduct == 'Airbrands'
+                      ? 'bg-blue-primary'
+                      : 'bg-gray-800'
+                  "
+                  class="p-4 rounded-lg cursor-pointer"
+                  @click="activeProduct = 'Airbrands'"
+                >
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    Airbands
+                  </h2>
+                </div>
+              </div></swiper-slide
             >
-              <h2 class="text-lg text-white font-medium font-subheading">
-                Airbands
-              </h2>
-            </div>
-          </div>
-          <div class="w-1/6 p-4">
-            <div
-              :class="
-                activeProduct == 'Humantrack'
-                  ? 'bg-blue-primary'
-                  : 'bg-gray-800'
-              "
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
-              @click="activeProduct = 'Humantrack'"
+            <swiper-slide>
+              <div class="w-full px-2">
+                <div
+                  :class="
+                    activeProduct == 'Humantrack'
+                      ? 'bg-blue-primary'
+                      : 'bg-gray-800'
+                  "
+                  class="p-4 rounded-lg cursor-pointer"
+                  @click="activeProduct = 'Humantrack'"
+                >
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    Humantrack
+                  </h2>
+                </div>
+              </div></swiper-slide
             >
-              <h2 class="text-lg text-white font-medium font-subheading">
-                Humantrack
-              </h2>
-            </div>
-          </div>
-          <div class="w-1/6 p-4">
-            <div
-              :class="
-                activeProduct == 'Nordbord' ? 'bg-blue-primary' : 'bg-gray-800'
-              "
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
-              @click="activeProduct = 'Nordbord'"
+            <swiper-slide>
+              <div class="w-full px-2">
+                <div
+                  :class="
+                    activeProduct == 'Nordbord'
+                      ? 'bg-blue-primary'
+                      : 'bg-gray-800'
+                  "
+                  class="p-4 rounded-lg cursor-pointer"
+                  @click="activeProduct = 'Nordbord'"
+                >
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    Nordbord
+                  </h2>
+                </div>
+              </div></swiper-slide
             >
-              <h2 class="text-lg text-white font-medium font-subheading">
-                Nordbord
-              </h2>
-            </div>
-          </div>
-          <div class="w-1/6 p-4">
-            <div
-              :class="
-                activeProduct == 'Forceframe'
-                  ? 'bg-blue-primary'
-                  : 'bg-gray-800'
-              "
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
-              @click="activeProduct = 'Forceframe'"
+            <swiper-slide>
+              <div class="w-full px-2">
+                <div
+                  :class="
+                    activeProduct == 'Forceframe'
+                      ? 'bg-blue-primary'
+                      : 'bg-gray-800'
+                  "
+                  class="p-4 rounded-lg cursor-pointer"
+                  @click="activeProduct = 'Forceframe'"
+                >
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    ForceFrame
+                  </h2>
+                </div>
+              </div></swiper-slide
             >
-              <h2 class="text-lg text-white font-medium font-subheading">
-                ForceFrame
-              </h2>
-            </div>
-          </div>
-          <div class="w-1/6 p-4">
-            <div
-              :class="
-                activeProduct == 'Decks' ? 'bg-blue-primary' : 'bg-gray-800'
-              "
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
-              @click="activeProduct = 'Decks'"
+            <swiper-slide>
+              <div class="w-full px-2">
+                <div
+                  :class="
+                    activeProduct == 'Decks' ? 'bg-blue-primary' : 'bg-gray-800'
+                  "
+                  class="p-4 rounded-lg cursor-pointer"
+                  @click="activeProduct = 'Decks'"
+                >
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    ForceDecks
+                  </h2>
+                </div>
+              </div></swiper-slide
             >
-              <h2 class="text-lg text-white font-medium font-subheading">
-                ForceDecks
-              </h2>
-            </div>
-          </div>
-          <div class="w-1/6 p-4">
-            <div
-              :class="
-                activeProduct == 'Telehab' ? 'bg-blue-primary' : 'bg-gray-800'
-              "
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
-              @click="activeProduct = 'Telehab'"
+            <swiper-slide>
+              <div class="w-full px-2">
+                <div
+                  :class="
+                    activeProduct == 'Telehab'
+                      ? 'bg-blue-primary'
+                      : 'bg-gray-800'
+                  "
+                  class="p-4 rounded-lg cursor-pointer"
+                  @click="activeProduct = 'Telehab'"
+                >
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    Telehab
+                  </h2>
+                </div>
+              </div></swiper-slide
             >
-              <h2 class="text-lg text-white font-medium font-subheading">
-                Telehab
-              </h2>
-            </div>
-          </div>
-          <div class="w-1/6 p-4">
-            <div
-              :class="
-                activeProduct == 'Recovery' ? 'bg-blue-primary' : 'bg-gray-800'
-              "
-              class="p-4 rounded-lg cursor-pointer transition duration-500 ease-in-out hover:bg-blue-primary transform hover:scale-x-110"
-              @click="activeProduct = 'Recovery'"
+            <swiper-slide>
+              <div class="w-full px-2">
+                <div
+                  :class="
+                    activeProduct == 'Recovery'
+                      ? 'bg-blue-primary'
+                      : 'bg-gray-800'
+                  "
+                  class="p-4 rounded-lg cursor-pointer"
+                  @click="activeProduct = 'Recovery'"
+                >
+                  <h2 class="text-sm text-white font-medium font-subheading">
+                    Recovery Equipment
+                  </h2>
+                </div>
+              </div></swiper-slide
             >
-              <h2 class="text-lg text-white font-medium font-subheading">
-                Recovery
-              </h2>
-            </div>
-          </div>
+            <div slot="button-prev" class="swiper-button-prev"></div>
+            <div slot="button-next" class="swiper-button-next"></div>
+          </swiper>
         </div>
       </div>
     </section>
@@ -265,6 +291,19 @@ export default {
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
+        },
+      },
+      swiperOption2: {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        freeMode: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       },
       activeProduct: 'Airbrands',

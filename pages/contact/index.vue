@@ -33,13 +33,13 @@
             >
               EMAIL
             </h2>
-            <a class="text-blue-500 leading-relaxed">admin@kineticx.id</a>
+            <a class="text-blue-500 leading-relaxed">cs@kineticx.id</a>
             <h2
               class="title-font font-medium text-white tracking-widest text-sm mt-4"
             >
               PHONE
             </h2>
-            <p class="leading-relaxed">123-456-7890</p>
+            <p class="leading-relaxed">08113520475</p>
           </div>
         </div>
       </div>

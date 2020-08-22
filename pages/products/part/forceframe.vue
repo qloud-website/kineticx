@@ -6,7 +6,7 @@
           v-scroll-reveal="{ delay: 100 }"
           class="sm:text-5xl text-2xl font-medium font-subheading text-white lg:w-1/3 lg:mb-0 mb-4"
         >
-          Force Frame
+          ForceFrame
         </h1>
         <p
           v-scroll-reveal="{ delay: 200 }"

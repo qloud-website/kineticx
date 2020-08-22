@@ -164,7 +164,7 @@
             >
               <img
                 class="h-16 rounded w-full object-cover object-center mb-4"
-                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/recovery/image-2.jpg"
+                src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/recover.jpg"
                 alt="content"
               />
               <h2 class="text-lg text-white font-medium font-subheading">

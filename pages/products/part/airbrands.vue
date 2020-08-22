@@ -8,6 +8,13 @@
         >
           Airbands
         </h1>
+        <p
+          v-scroll-reveal="{ delay: 200 }"
+          class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed font-description"
+        >
+          The world’s first, smartphone enabled, digital and wireless, Blood
+          Flow Restriction training device.
+        </p>
       </div>
       <div class="flex flex-wrap -m-4">
         <div v-scroll-reveal="{ delay: 300 }" class="lg:w-1/3 sm:w-1/2 p-4">

@@ -6,7 +6,7 @@
           v-scroll-reveal="{ delay: 100 }"
           class="sm:text-5xl text-2xl font-medium font-subheading text-white lg:w-1/3 lg:mb-0 mb-4"
         >
-          Decks
+          ForceDecks
         </h1>
         <p
           v-scroll-reveal="{ delay: 200 }"
@@ -14,7 +14,7 @@
         >
           Dual high-accuracy force platforms and seamless auto-analysis
           software. Analyse balance, strength and movement strategies in a range
-          ofexercises and jumps.
+          of exercises and jumps.
         </p>
       </div>
       <div v-scroll-reveal="{ delay: 300 }" class="flex flex-wrap md:-m-2 -m-1">
