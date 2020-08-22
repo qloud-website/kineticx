@@ -294,9 +294,8 @@ export default {
         },
       },
       swiperOption2: {
-        slidesPerView: 5,
-        spaceBetween: 10,
-        freeMode: true,
+        slidesPerView: 6,
+        spaceBetween: 20,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,

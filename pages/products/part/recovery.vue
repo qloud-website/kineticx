@@ -14,7 +14,10 @@
         ></p>
       </div>
       <div class="flex flex-wrap -m-4 object-center">
-        <div v-scroll-reveal="{ delay: 300 }" class="lg:w-full sm:w-full p-4">
+        <div
+          v-scroll-reveal="{ delay: 300 }"
+          class="lg:w-full sm:w-full p-4 flex justify-center"
+        >
           <img
             alt="gallery"
             class="object-center"

@@ -12,7 +12,8 @@
             v-scroll-reveal="{ delay: 100 }"
             class="font-heading sm:text-5xl text-5xl mb-4 font-medium text-white"
           >
-            Rehabilitate properly
+            <span class="text-blue-primary-hvr">Rehabilitate</span>
+            <span class="font-thin">properly</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"

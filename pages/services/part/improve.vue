@@ -12,7 +12,8 @@
             v-scroll-reveal="{ delay: 100 }"
             class="font-heading sm:text-5xl text-5xl mb-4 font-medium text-white"
           >
-            Improve safely
+            <span class="text-blue-primary-hvr">Improve</span>
+            <span class="font-thin">safely</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"

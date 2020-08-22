@@ -20,7 +20,8 @@
             v-scroll-reveal="{ delay: 150 }"
             class="font-heading sm:text-5xl text-3xl mb-4 font-medium text-white"
           >
-            Evaluate accuratelly
+            <span class="text-blue-primary-hvr">Evaluate</span>
+            <span class="font-thin">accuratelly</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"
