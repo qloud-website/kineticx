@@ -37,7 +37,10 @@
     <section class="text-gray-500 bg-gray-900 body-font">
       <div class="container px-5 py-4 mx-auto">
         <div class="flex flex-wrap justify-center -mx-4 -mb-10">
-          <div class="sm:w-1/2 mb-10 p-4">
+          <div
+            v-scroll-reveal.reset="{ delay: 350 }"
+            class="sm:w-1/2 mb-10 p-4"
+          >
             <div class="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
@@ -55,7 +58,10 @@
               develop body awareness and movement skills
             </p>
           </div>
-          <div class="sm:w-1/2 mb-10 p-4">
+          <div
+            v-scroll-reveal.reset="{ delay: 400 }"
+            class="sm:w-1/2 mb-10 p-4"
+          >
             <div class="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
