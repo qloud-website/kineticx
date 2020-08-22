@@ -10,13 +10,17 @@
               style="background-image: url('/img/slider/249487.png');"
             >
               <div
-                class="bg-black bg-opacity-50 flex items-center h-full px-20 sm:px-1 md:px-20 lg:px-20"
+                class="bg-black bg-opacity-50 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold font-heading">
+                  <h2
+                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading"
+                  >
                     Telehab Virtual
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
+                  <p
+                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                  >
                     Train everywhere, anytime and get the same smart result.
                   </p>
                   <nuxt-link
@@ -37,10 +41,14 @@
                 class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold font-heading">
+                  <h2
+                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading leading-none"
+                  >
                     World-class Testing Technologies
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
+                  <p
+                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                  >
                     Helping active individuals and sport and medical
                     professionals to get the right information, for the right
                     decision at the right time.
@@ -63,10 +71,14 @@
                 class="bg-black bg-opacity-25 flex items-center justify-end text-right h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold font-heading">
+                  <h2
+                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading leading-none"
+                  >
                     The Best in Field-based Measurement
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
+                  <p
+                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                  >
                     Helping active individuals and sport and medical
                     professionals to get the right information, for the right
                     decision at the right time.
@@ -89,10 +101,14 @@
                 class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
-                  <h2 class="text-5xl text-white font-semibold font-heading">
+                  <h2
+                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading"
+                  >
                     Train Smarter
                   </h2>
-                  <p class="mt-2 leading-relaxed text-gray-400 font-subheading">
+                  <p
+                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                  >
                     If you can measure it, you can improve it.
                   </p>
                   <nuxt-link
@@ -131,10 +147,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 150 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
+            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
           >
             <span class="text-blue-primary-hvr">Evaluate</span>
-            <span class="font-thin">accuratelly</span>
+            <span class="font-thin font-subheading">accuratelly</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"
@@ -168,10 +184,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 100 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
+            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
           >
             <span class="text-blue-primary-hvr">Rehabilitate</span>
-            <span class="font-thin">properly</span>
+            <span class="font-thin font-subheading">properly</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 150 }"
@@ -225,10 +241,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 150 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
+            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
           >
             <span class="text-blue-primary-hvr">Improve</span>
-            <span class="font-thin">safely</span>
+            <span class="font-thin font-subheading">safely</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"
@@ -262,10 +278,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 100 }"
-            class="font-headingsm:text-5xl text-5xl mb-4 font-bold text-white"
+            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
           >
             <span class="text-blue-primary-hvr">Recover</span>
-            <span class="font-thin">effectively</span>
+            <span class="font-thin font-subheading">effectively</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 150 }"
@@ -316,7 +332,7 @@ export default {
       swiperOption: {
         slidesPerView: 1,
         effect: 'cube',
-        speed: 2000,
+        speed: 1500,
         loop: true,
         autoplay: {
           delay: 5000,

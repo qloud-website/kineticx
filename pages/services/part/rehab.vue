@@ -10,10 +10,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 100 }"
-            class="font-heading sm:text-5xl text-5xl mb-4 font-medium text-white"
+            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
           >
             <span class="text-blue-primary-hvr">Rehabilitate</span>
-            <span class="font-thin">properly</span>
+            <span class="font-thin font-subheading">properly</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"

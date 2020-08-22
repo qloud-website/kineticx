@@ -18,10 +18,10 @@
         >
           <h1
             v-scroll-reveal="{ delay: 150 }"
-            class="font-heading sm:text-5xl text-3xl mb-4 font-medium text-white"
+            class="font-heading sm:text-5xl text-3xl mb-4 font-bold text-white leading-none"
           >
             <span class="text-blue-primary-hvr">Recover</span>
-            <span class="font-thin">effectively</span>
+            <span class="font-thin font-subheading">effectively</span>
           </h1>
           <p
             v-scroll-reveal="{ delay: 200 }"

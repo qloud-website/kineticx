@@ -11,7 +11,13 @@
         <p
           v-scroll-reveal="{ delay: 200 }"
           class="lg:w-2/3 mx-auto leading-relaxed font-description"
-        ></p>
+        >
+          Recover faster and work harder by utilising specifically designed
+          equipment used by professional atheletes around the world to recover
+          from muscle fatigue. It works by clearing metabolic waste in the body
+          through increasing blood circulation which result in increased oxygen
+          and nutrients delivered to the muscle.
+        </p>
       </div>
       <div class="flex flex-wrap -m-4 object-center">
         <div
