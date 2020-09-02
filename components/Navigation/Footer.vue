@@ -10,8 +10,8 @@
           class="flex title-font font-medium items-center md:justify-start justify-center text-white"
         >
           <img
-            class="h-16"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-logo.png"
+            class="h-24"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-vald-logo-white.png"
             alt
           />
         </a>
