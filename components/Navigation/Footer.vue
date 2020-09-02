@@ -1,7 +1,7 @@
 <template>
   <footer class="text-gray-500 bg-gray-800 body-font">
     <div
-      class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col"
+      class="container px-5 pt-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col"
     >
       <div
         class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10"
@@ -140,6 +140,12 @@
           </nav>
         </div>
       </div>
+    </div>
+    <div class="flex flex-wrap items-center justify-center w-full">
+      <img
+        src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/vald-logo.png"
+        alt=""
+      />
     </div>
     <div class="bg-gray-700">
       <div

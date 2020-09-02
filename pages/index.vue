@@ -7,10 +7,10 @@
           <swiper-slide>
             <div
               class="h-screen rounded-md overflow-hidden bg-cover bg-center"
-              style="background-image: url('/img/slider/249487.png');"
+              style="background-image: url('/img/slider/slider-1.jpg');"
             >
               <div
-                class="bg-black bg-opacity-50 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
+                class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
               >
                 <div class="px-10 max-w-xl">
                   <h2

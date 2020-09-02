@@ -8,9 +8,9 @@
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img
             v-scroll-reveal="{ delay: 100 }"
-            class="object-cover object-center rounded"
+            class="object-cover object-center rounded h-96 w-128"
             alt="hero"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-1.jpg"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/services/evaluate/image-4.jpg"
           />
         </div>
         <div
@@ -54,7 +54,7 @@
             <h2
               class="font-heading text-5xl font-medium text-white mt-6 mb-3 leading-none"
             >
-              Human Movement Screening
+              3D - Human Movement Screening
             </h2>
             <p class="leading-relaxed font-description">
               Measure your movement patterns that have lead to injury. Our
