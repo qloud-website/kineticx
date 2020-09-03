@@ -11,7 +11,7 @@
         >
           <img
             class="h-24"
-            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-vald-logo-white.png"
+            src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/logo/kineticx-logo.png"
             alt
           />
         </a>
