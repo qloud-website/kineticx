@@ -132,16 +132,15 @@
       <div class="container mx-auto px-5 pt-16">
         <h2 class="text-white font-description font-thin">
           <span class="text-blue-primary-hvr font-bold font-heading text-2xl"
-            >World-class</span
-          >
-          testing equipment and technologies to help active individuals and
-          sport/medical professionals to get the right information, for the
-          right decision at the right time.
+            >World-class testing equipment
+          </span>
+          and technologies to help active individuals and sport/medical
+          professionals to get the right information, for the right decision at
+          the right time.
           <span class="text-blue-primary-hvr font-bold font-heading text-2xl"
-            >Providing</span
+            >Providing the latest scientific-based rehabilitation, improvement,
+            and recovery programs.</span
           >
-          the latest scientific-based rehabilitation, improvement, and recovery
-          programs.
         </h2>
       </div>
       <div
