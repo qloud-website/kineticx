@@ -39,7 +39,7 @@
             >
               PHONE
             </h2>
-            <p class="leading-relaxed">08113520475</p>
+            <p class="leading-relaxed">+62 811-3520-475</p>
           </div>
         </div>
       </div>
