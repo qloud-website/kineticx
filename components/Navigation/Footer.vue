@@ -17,7 +17,7 @@
         </a>
         <p class="mt-2 text-sm text-gray-700">
           Jalan Musi 20, Surabaya
-          <br />Jawa Timur Indonesia <br />cs@kineticx.id <br />08113520475
+          <br />Jawa Timur Indonesia <br />cs@kineticx.id <br />+62 811-3520-475
         </p>
       </div>
       <div
