@@ -21,7 +21,7 @@ module.exports = {
         '168': '40rem',
       },
       fontFamily: {
-        heading: ['Metropolis', 'sans-serif'],
+        heading: ['Manrope', 'sans-serif'],
         subheading: ['Inter', 'sans-serif'],
         description: ['Inter', 'sans-serif'],
       },

@@ -6,7 +6,7 @@ export default {
   generate: {
     fallback: true,
   },
-  mode: 'spa',
+  mode: 'universal',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -17,14 +17,17 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: 'KineticX' || '',
+    title:
+      'KineticX Indonesia - A sport science and body performance centre' || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || '',
+        hid: 'A sport science and body performance centre',
+        name: 'A sport science and body performance centre',
+        content:
+          'A sport science and body performance centre. Official VALD Performance (www.valdperformance.com) representative in Indonesia' ||
+          '',
       },
     ],
     link: [
@@ -41,7 +44,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.cdnfonts.com/css/metropolis-2?styles=21184,21188,21176,21177,21185,21189,21178,21179,21174,21175',
+          'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap',
       },
     ],
   },
@@ -54,8 +57,8 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    { src: '~/plugins/global.js', ssr: false },
-    { src: '~/plugins/v-scroll-reveal.js', ssr: false },
+    { src: '~/plugins/global.js', mode: 'client' },
+    { src: '~/plugins/v-scroll-reveal.js', mode: 'client' },
   ],
   /*
    ** Auto import components
