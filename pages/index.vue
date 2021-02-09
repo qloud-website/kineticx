@@ -6,26 +6,26 @@
         <swiper class="swiper" :options="swiperOption">
           <swiper-slide>
             <div
-              class="h-screen rounded-md overflow-hidden bg-cover bg-center"
-              style="background-image: url('/img/slider/slider-1.jpg');"
+              class="h-screen overflow-hidden bg-center bg-cover rounded-md"
+              style="background-image: url('/img/slider/slider-1.jpg')"
             >
               <div
-                class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
+                class="flex items-center h-full px-1 bg-black bg-opacity-25 sm:px-1 md:px-20 lg:px-20"
               >
-                <div class="px-10 max-w-xl">
+                <div class="max-w-xl px-10">
                   <h2
-                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading"
+                    class="text-2xl font-semibold text-white sm:text-2xl md:text-4xl lg:text-5xl font-heading"
                   >
                     Telehab Virtual
                   </h2>
                   <p
-                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                    class="mt-2 text-sm leading-relaxed text-gray-400 sm:text-sm md:text-lg lg:text-lg font-subheading"
                   >
                     Train everywhere, anytime and get the same smart result.
                   </p>
                   <nuxt-link
                     to="/products"
-                    class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    class="inline-flex px-6 py-2 mt-10 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
                     >Learn More</nuxt-link
                   >
                 </div>
@@ -34,20 +34,20 @@
           </swiper-slide>
           <swiper-slide>
             <div
-              class="h-screen rounded-md overflow-hidden bg-cover bg-center"
-              style="background-image: url('/img/slider/image-5.jpg');"
+              class="h-screen overflow-hidden bg-center bg-cover rounded-md"
+              style="background-image: url('/img/slider/image-5.jpg')"
             >
               <div
-                class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
+                class="flex items-center h-full px-1 bg-black bg-opacity-25 sm:px-1 md:px-20 lg:px-20"
               >
-                <div class="px-10 max-w-xl">
+                <div class="max-w-xl px-10">
                   <h2
-                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading leading-none"
+                    class="text-2xl font-semibold leading-none text-white sm:text-2xl md:text-4xl lg:text-5xl font-heading"
                   >
                     World-class Testing Technologies
                   </h2>
                   <p
-                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                    class="mt-2 text-sm leading-relaxed text-gray-400 sm:text-sm md:text-lg lg:text-lg font-subheading"
                   >
                     Helping active individuals and sport and medical
                     professionals to get the right information, for the right
@@ -55,7 +55,7 @@
                   </p>
                   <nuxt-link
                     to="/products"
-                    class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    class="inline-flex px-6 py-2 mt-10 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
                     >Learn More</nuxt-link
                   >
                 </div>
@@ -64,20 +64,20 @@
           </swiper-slide>
           <swiper-slide>
             <div
-              class="h-screen rounded-md overflow-hidden bg-cover bg-center"
-              style="background-image: url('/img/slider/image-6.jpg');"
+              class="h-screen overflow-hidden bg-center bg-cover rounded-md"
+              style="background-image: url('/img/slider/image-6.jpg')"
             >
               <div
-                class="bg-black bg-opacity-25 flex items-center justify-end text-right h-full px-1 sm:px-1 md:px-20 lg:px-20"
+                class="flex items-center justify-end h-full px-1 text-right bg-black bg-opacity-25 sm:px-1 md:px-20 lg:px-20"
               >
-                <div class="px-10 max-w-xl">
+                <div class="max-w-xl px-10">
                   <h2
-                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading leading-none"
+                    class="text-2xl font-semibold leading-none text-white sm:text-2xl md:text-4xl lg:text-5xl font-heading"
                   >
                     The Best in Field-based Measurement
                   </h2>
                   <p
-                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                    class="mt-2 text-sm leading-relaxed text-gray-400 sm:text-sm md:text-lg lg:text-lg font-subheading"
                   >
                     Helping active individuals and sport and medical
                     professionals to get the right information, for the right
@@ -85,7 +85,7 @@
                   </p>
                   <nuxt-link
                     to="/products"
-                    class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    class="inline-flex px-6 py-2 mt-10 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
                     >Learn More</nuxt-link
                   >
                 </div>
@@ -94,26 +94,26 @@
           </swiper-slide>
           <swiper-slide>
             <div
-              class="h-screen rounded-md overflow-hidden bg-cover bg-center"
-              style="background-image: url('/img/slider/image-4.jpg');"
+              class="h-screen overflow-hidden bg-center bg-cover rounded-md"
+              style="background-image: url('/img/slider/image-4.jpg')"
             >
               <div
-                class="bg-black bg-opacity-25 flex items-center h-full px-1 sm:px-1 md:px-20 lg:px-20"
+                class="flex items-center h-full px-1 bg-black bg-opacity-25 sm:px-1 md:px-20 lg:px-20"
               >
-                <div class="px-10 max-w-xl">
+                <div class="max-w-xl px-10">
                   <h2
-                    class="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-semibold font-heading"
+                    class="text-2xl font-semibold text-white sm:text-2xl md:text-4xl lg:text-5xl font-heading"
                   >
                     Train Smarter
                   </h2>
                   <p
-                    class="mt-2 leading-relaxed text-sm sm:text-sm md:text-lg lg:text-lg text-gray-400 font-subheading"
+                    class="mt-2 text-sm leading-relaxed text-gray-400 sm:text-sm md:text-lg lg:text-lg font-subheading"
                   >
                     If you can measure it, you can improve it.
                   </p>
                   <nuxt-link
                     to="/products"
-                    class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 mt-10 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                    class="inline-flex px-6 py-2 mt-10 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
                     >Learn More</nuxt-link
                   >
                 </div>
@@ -129,39 +129,39 @@
 
     <!-- Content 2 -->
     <section class="text-gray-500 bg-gray-900 body-font">
-      <div class="container mx-auto px-5 pt-16">
-        <h2 class="text-white font-description font-thin">
-          <span class="text-blue-primary-hvr font-bold font-heading text-2xl"
+      <div class="container px-5 pt-16 mx-auto">
+        <h2 class="font-thin text-white font-description">
+          <span class="text-2xl font-bold text-blue-primary-hvr font-heading"
             >World-class testing equipment
           </span>
           and technologies to help active individuals and sport/medical
           professionals to get the right information, for the right decision at
           the right time.
-          <span class="text-blue-primary-hvr font-bold font-heading text-2xl"
+          <span class="text-2xl font-bold text-blue-primary-hvr font-heading"
             >Providing the latest scientific-based rehabilitation, improvement,
             and recovery programs.</span
           >
         </h2>
       </div>
       <div
-        class="container mx-auto flex px-5 pb-16 mt-16 md:flex-row flex-col items-center"
+        class="container flex flex-col items-center px-5 pb-16 mx-auto mt-16 md:flex-row"
       >
         <div
-          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 transition duration-500 ease-in-out transform hover:scale-110"
+          class="w-5/6 mb-10 transition duration-500 ease-in-out transform lg:max-w-lg lg:w-full md:w-1/2 md:mb-0 hover:scale-110"
         >
           <img
             v-scroll-reveal="{ delay: 100 }"
-            class="w-128 h-96 object-cover object-center rounded"
+            class="object-cover object-center rounded w-128 h-96"
             alt="hero"
             src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/evaluate.jpg"
           />
         </div>
         <div
-          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left"
         >
           <h1
             v-scroll-reveal="{ delay: 150 }"
-            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
+            class="mb-4 text-5xl font-bold leading-none text-white font-heading sm:text-5xl"
           >
             <span class="text-blue-primary-hvr">Evaluate</span>
             <span class="font-thin font-subheading">accuratelly</span>
@@ -176,7 +176,7 @@
           <div class="flex justify-center">
             <nuxt-link
               v-scroll-reveal="{ delay: 100 }"
-              class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              class="inline-flex px-6 py-2 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
               :to="{
                 path: '/services',
                 query: { c: 'evaluate' },
@@ -191,14 +191,14 @@
     <!-- Content 3 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
-        class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center"
+        class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row"
       >
         <div
-          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          class="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0"
         >
           <h1
             v-scroll-reveal="{ delay: 100 }"
-            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
+            class="mb-4 text-5xl font-bold leading-none text-white font-heading sm:text-5xl"
           >
             <span class="text-blue-primary-hvr">Rehabilitate</span>
             <span class="font-thin font-subheading">properly</span>
@@ -217,17 +217,17 @@
                 path: '/services',
                 query: { c: 'rehab' },
               }"
-              class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              class="inline-flex px-6 py-2 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
               >Learn More</nuxt-link
             >
           </div>
         </div>
         <div
-          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition duration-500 ease-in-out transform hover:scale-110"
+          class="w-5/6 transition duration-500 ease-in-out transform lg:max-w-lg lg:w-full md:w-1/2 hover:scale-110"
         >
           <img
             v-scroll-reveal="{ delay: 300 }"
-            class="w-128 h-96 object-cover object-center rounded"
+            class="object-cover object-center rounded w-128 h-96"
             alt="hero"
             src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/rehab.jpg"
           />
@@ -238,24 +238,24 @@
     <!-- Content 4 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
-        class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center"
+        class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row"
       >
         <div
-          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 transition duration-500 ease-in-out transform hover:scale-110"
+          class="w-5/6 mb-10 transition duration-500 ease-in-out transform lg:max-w-lg lg:w-full md:w-1/2 md:mb-0 hover:scale-110"
         >
           <img
             v-scroll-reveal="{ delay: 100 }"
-            class="w-128 h-96 object-cover object-center rounded"
+            class="object-cover object-center rounded w-128 h-96"
             alt="hero"
             src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/improve.png"
           />
         </div>
         <div
-          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left"
         >
           <h1
             v-scroll-reveal="{ delay: 150 }"
-            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
+            class="mb-4 text-5xl font-bold leading-none text-white font-heading sm:text-5xl"
           >
             <span class="text-blue-primary-hvr">Improve</span>
             <span class="font-thin font-subheading">safely</span>
@@ -274,7 +274,7 @@
                 path: '/services',
                 query: { c: 'improve' },
               }"
-              class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              class="inline-flex px-6 py-2 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
               >Learn More</nuxt-link
             >
           </div>
@@ -285,14 +285,14 @@
     <!-- Content 5 -->
     <section class="text-gray-500 bg-gray-900 body-font">
       <div
-        class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center"
+        class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row"
       >
         <div
-          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          class="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0"
         >
           <h1
             v-scroll-reveal="{ delay: 100 }"
-            class="font-heading sm:text-5xl text-5xl mb-4 font-bold text-white leading-none"
+            class="mb-4 text-5xl font-bold leading-none text-white font-heading sm:text-5xl"
           >
             <span class="text-blue-primary-hvr">Recover</span>
             <span class="font-thin font-subheading">effectively</span>
@@ -310,17 +310,17 @@
                 path: '/services',
                 query: { c: 'recovery' },
               }"
-              class="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              class="inline-flex px-6 py-2 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
               >Learn More</nuxt-link
             >
           </div>
         </div>
         <div
-          class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition duration-500 ease-in-out transform hover:scale-110"
+          class="w-5/6 transition duration-500 ease-in-out transform lg:max-w-lg lg:w-full md:w-1/2 hover:scale-110"
         >
           <img
             v-scroll-reveal="{ delay: 300 }"
-            class="w-128 h-96 object-cover object-center rounded"
+            class="object-cover object-center rounded w-128 h-96"
             alt="hero"
             src="https://qloud-website.s3-ap-southeast-1.amazonaws.com/c/kineticx/general/recover.jpg"
           />

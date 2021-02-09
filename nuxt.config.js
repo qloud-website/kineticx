@@ -6,17 +6,16 @@ export default {
   generate: {
     fallback: true,
   },
-  mode: 'universal',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
+  ssr: true,
   target: 'static',
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
-   */
-  head: {
+   */ head: {
     title:
       'KineticX Indonesia - A sport science and body performance centre' || '',
     meta: [
@@ -26,8 +25,7 @@ export default {
         hid: 'A sport science and body performance centre',
         name: 'A sport science and body performance centre',
         content:
-          'A sport science and body performance centre. Official VALD Performance (www.valdperformance.com) representative in Indonesia' ||
-          '',
+          'A sport science and body performance centre. Official VALD Performance (www.valdperformance.com) representative in Indonesia',
       },
     ],
     link: [
@@ -41,11 +39,6 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap',
       },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap',
-      },
     ],
   },
   /*
@@ -57,8 +50,10 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    { src: '~/plugins/global.js', mode: 'client' },
-    { src: '~/plugins/v-scroll-reveal.js', mode: 'client' },
+    {
+      src: '~/plugins/v-scroll-reveal.js',
+      ssr: false,
+    },
   ],
   /*
    ** Auto import components
@@ -73,7 +68,12 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@aceforth/nuxt-optimized-images',
+    '@nuxtjs/device',
   ],
+  optimizedImages: {
+    optimizeImages: true,
+  },
   /*
    ** Nuxt.js modules
    */
