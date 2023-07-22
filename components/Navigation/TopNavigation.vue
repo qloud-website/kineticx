@@ -47,6 +47,14 @@
           >Products
         </nuxt-link>
         <nuxt-link
+          to="/event"
+          :class="
+            $route.name.includes('event') ? 'bg-blue-primary text-white' : ''
+          "
+          class="px-2 py-1 mr-1 transition duration-500 ease-in-out transform rounded sm:mr-1 md:mr-10 lg:mr-10 hover:text-white hover:bg-blue-primary hover:scale-110"
+          >Event
+        </nuxt-link>
+        <nuxt-link
           v-show="$device.isMobile"
           to="/contact"
           :class="
