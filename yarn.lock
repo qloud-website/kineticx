@@ -1204,6 +1204,7 @@
   resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.14.12.tgz#077267c94ac4d30ed38f7642236f3523ee5280f2"
   integrity sha512-Ob861w1BjgI1IcpXRC14TKMpUSogGYX/BFn7q/0HkntYxSOQAkMaaUZ0/YEx6IR1fuZV2v+NB8M4IkyUrgW1YA==
   dependencies:
+    "@nuxt/ufo" "^0.5.0"
     "@nuxt/utils" "2.14.12"
     consola "^2.15.0"
     create-require "^1.1.1"
@@ -1331,11 +1332,17 @@
     rc9 "^1.2.0"
     std-env "^2.2.1"
 
+"@nuxt/ufo@^0.5.0":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/ufo/-/ufo-0.5.4.tgz#2e1428e2c947cc559d566c27786525bf0f40fbc8"
+  integrity sha512-JZOGDlt2BvLCBmLhrchhRJ6tP9PBfSWLdsHC+JVJ5Qp8/hT/2u61cSsLS30zUOwcPRaQ3y2oHNkEiKJ5v90iEQ==
+
 "@nuxt/utils@2.14.12":
   version "2.14.12"
   resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.14.12.tgz#7684ef732fba65608baff02bc4cce2b3ced891ac"
   integrity sha512-XAy18aT2JOuyGnCuGImelOMwheLRo/qBkjqufa/TLIqnBtywdv2y7WP7c9uGTZrwh+O6KHYFeeZjnLqFI0r/xQ==
   dependencies:
+    "@nuxt/ufo" "^0.5.0"
     consola "^2.15.0"
     fs-extra "^8.1.0"
     hash-sum "^2.0.0"
@@ -1350,6 +1357,7 @@
   resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.14.12.tgz#1e41d64a8b18277d5db15158ca2a5d7fbcdf23dc"
   integrity sha512-DwkXh8Djn2wi2qLetupDKpRIFmBDNZKrdT94xFieI5qY32EhLj9d/T80wZoZNZkPVqAKcwq24WktCSVRQ/uiOw==
   dependencies:
+    "@nuxt/ufo" "^0.5.0"
     node-fetch "^2.6.1"
     unfetch "^4.2.0"
     vue "^2.6.12"
@@ -1366,6 +1374,7 @@
   integrity sha512-bYqN1SIumi4EKWDaay6+V2NxcWS/IygOQekfuvNKYhQk97pzkBuXrBGgI6WRdSGLcEBFV0DpHxx66XWVXghL/g==
   dependencies:
     "@nuxt/devalue" "^1.2.4"
+    "@nuxt/ufo" "^0.5.0"
     "@nuxt/utils" "2.14.12"
     consola "^2.15.0"
     fs-extra "^8.1.0"
