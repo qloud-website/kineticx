@@ -9,7 +9,7 @@
             v-scroll-reveal="{ delay: 100 }"
             class="object-cover object-center rounded h-96 w-128"
             alt="hero"
-            src="https://integrisok.com/-/media/blog/18-may/large-physical-therapy.ashx?as=1&mh=405&mw=720&revision=683a6d6f-37e4-4795-91a1-dbc624221f11&hash=99D84A5147B0513B91497C966158252F"
+            src="https://squadmanager.s3.ap-southeast-1.amazonaws.com/event/event_1.jpg"
           />
         </div>
         <div
@@ -70,6 +70,13 @@
             </tbody>
           </table>
         </div>
+        <a href="https://s.id/1PPVD" class="flex justify-center pb-4">
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white py-4 px-4 font-bold rounded"
+          >
+            Click for Register
+          </button>
+        </a>
         <div v-scroll-reveal="{ delay: 150 }" class="pb-16">
           <span class="text-blue-primary-hvr text-xl font-bold leading-none"
             >Course content</span
